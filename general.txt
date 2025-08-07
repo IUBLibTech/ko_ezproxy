@@ -1,0 +1,2751 @@
+## General Database Definitions moved 12/2014 ##
+# databases after this line - you may change below this line only - JEB
+
+
+# Updated per ralight 2023-06-14
+HTTPMethod DELETE
+HTTPMethod PUT
+Option CookiePassThrough
+Title Ovid HTTPS (OCLC IncludeFile updated 20230612)
+HTTPHeader -request -process X-XSRF-Token
+HTTPHeader -request -process Set-Cookie
+URL http://ovidsp.ovid.com/autologin.html
+HJ access.ovid.com
+HJ https://access.ovid.com
+HJ acs.dc1.ovid.com
+HJ https://acs.dc1.ovid.com
+HJ acs.dc2.ovid.com
+HJ https://acs.dc2.ovid.com
+HJ ahaplayer.ondemand.org
+HJ https://ahaplayer.ondemand.org
+HJ app.imagingreferencecenter.com
+HJ https://app.imagingreferencecenter.com
+HJ app.anatomyreferencecenter.com
+HJ https://app.anatomyreferencecenter.com
+HJ app.pathologyreferencecenter.com
+HJ https://app.pathologyreferencecenter.com
+HJ auth.jbisumari.org
+HJ https://auth.jbisumari.org
+HJ content.wkhealth.com
+HJ https://e-bea.dc1.ovid.com
+HJ gateway.ovid.com
+HJ https://gateway.ovid.com
+HJ graphics.dc1.ovid.com
+HJ https://graphics.dc1.ovid.com
+HJ graphics.dc2.ovid.com
+HJ https://graphics.dc2.ovid.com
+HJ insights.ovid.com
+HJ https://insights.ovid.com
+HJ linksolver.ovid.com
+HJ linksolver.dc1.ovid.com
+HJ login.wolterskluwer.com
+HJ https://login.wolterskluwer.com
+HJ login.wolterskluwer.eu
+HJ https://login.wolterskluwer.eu
+HJ nursing.dc1.ovid.com
+HJ https://nursing.dc1.ovid.com
+HJ nursing.dc2.ovid.com
+HJ https://nursing.dc2.ovid.com
+HJ nursing.ovid.com
+HJ https://nursing.ovid.com
+HJ oce.ovid.com
+HJ https://oce.ovid.com
+HJ odds.dc1.ovid.com
+HJ odds.dc2.ovid.com
+HJ ovid-admin.dc1.ovid.com
+HJ ovid-admin.dc2.ovid.com
+HJ ovidcn.ovid.com
+HJ ovides.ovid.com
+HJ ovidfr.ovid.com
+HJ ovidsp.ovid.com
+HJ jbi.dc1.ovid.com
+HJ jbi.dc2.ovid.com
+HJ api.my.jbi.global
+HJ https://api.my.jbi.global
+HJ app.paces.jbi.global
+HJ https://ovidsp.ovid.com
+HJ ovidsp.dc1.ovid.com
+HJ https://ovidsp.dc1.ovid.com
+HJ ovidsp.dc2.ovid.com
+HJ https://ovidsp.dc2.ovid.com
+HJ ovidsp.tx.ovid.com
+HJ https://ovidsp.tx.ovid.com
+HJ https://ovidsp-test.ovid.com
+HJ ovidsp-test.ovid.com
+HJ ovidsp.uk.ovid.com
+HJ ovid.visiblebody.com
+HJ pt.wkhealth.com
+HJ https://pt.wkhealth.com
+HJ stats.ovid.com
+HJ sumari-prod-1.srv.jbisumari.org
+HJ tools.ovid.com
+HJ watch.ondemand.org
+HJ https://watch.ondemand.org
+HJ app.jbisumari.org
+HJ https://app.jbisumari.org
+HJ https://journals.lww.com
+HJ https://myorthoevidence.com
+HJ anatomy.tv
+DJ lww.com
+DJ anatomyreferencecenter.com
+DJ dc1.ovid.com
+DJ dc2.ovid.com
+DJ imagingreferencecenter.com
+DJ jbisumari.org
+DJ ondemand.org
+DJ ovid.com
+DJ pathologyreferencecenter.com
+DJ visiblebody.com
+DJ wkhealth.com
+DJ wolterskluwer.com
+DJ anatomy.tv
+Find returnUrl=http://
+Replace returnUrl=http://^A
+Find id="returnUrl" value="http://
+Replace id="returnUrl" value="http://^A
+Find action="http://
+Replace action="http://^A
+NeverProxy assets.ovid.com
+NeverProxy cdn.visiblebody.com
+NeverProxy demo.ovid.com
+Option Cookie
+
+# Updated to https per ralight 2022-07-29
+Title AAPG Datapages
+URL https://archives.datapages.com/
+HJ http://archives.datapages.com/
+HJ search.datapages.com
+HJ www.aapg.org
+HJ www.searchanddiscovery.com
+DJ datapages.com
+DJ aapg.org
+DJ searchanddiscovery.com
+
+# Updated per ralight 2022-09-15
+Title Access Science 
+URL https://www.accessscience.com 
+HJ accessscience.com 
+HJ https://accessscience.com 
+HJ https://www.accessscience.com 
+HJ www.accessscience.com 
+HJ https://idp.sams-sigma.com/ 
+DJ accessscience.com
+
+Title ACLS Humanities E-Book
+URL http://www.humanitiesebook.org/
+HJ humanitiesebook.org
+HJ https://humanitiesebook.org
+HJ www.humanitiesebook.org
+HJ https://www.humanitiesebook.org
+HJ hdl.handle.net
+HJ https://hdl.handle.net
+HJ hdl.lib.umich.edu
+HJ https://hdl.lib.umich.edu
+HJ name.umdl.umich.edu
+HJ https://name.umdl.umich.edu
+HJ quod.lib.umich.edu
+HJ https://quod.lib.umich.edu
+HJ www.hti.umich.edu
+HJ https://www.hti.umich.edu
+
+# Updated per ralight 2022-07-07
+Title Fulcrum (updated 20180731)
+URL https://www.fulcrum.org
+HJ hdl.handle.net
+HJ https://hdl.handle.net
+HJ www.fulcrum.org
+HJ https://www.fulcrum.org
+HJ fulcrum.org
+HJ https://fulcrum.org
+DJ fulcrum.org 
+
+Title  AGRICOLA
+URL    http://www.nal.usda.gov/ag98/ag98.html 
+DJ     usda.gov
+
+Title Alexander Street Press (updated 20210805)
+URL http://search.alexanderstreet.com
+Host https://search.alexanderstreet.com
+DJ alexanderstreet.com
+Host cdn.alexanderstreet.com
+HJ https://tcr3.alexanderstreet.com
+HJ https://tcr4.alexanderstreet.com
+NeverProxy https://dywyzs4z4lwvw.cloudfront.net
+NeverProxy d3crmev290s45i.cloudfront.net
+NeverProxy media.proquest.com
+Find "http:\/\/
+Replace "http://
+Find "https:\/\/
+Replace "https://
+Find domain="*.alexanderstreet.com"
+Replace domain="*" 
+
+Title ALA Journals
+URL https://journals.ala.org/
+HJ journals.ala.org
+HJ www.journals.ala.org
+HJ https://journals.ala.org
+HJ https://www.journals.ala.org
+DJ ala.org
+
+
+Title Alexander Street
+URL https://alexanderstreet.com/
+HJ alexanderstreet.com
+HJ https://search.alexanderstreet.com
+HJ search.alexanderstreet.com
+Domain alexanderstreet.com
+HJ aadr.alexanderstreet.com
+HJ aamr.alexanderstreet.com
+HJ adli.alexanderstreet.com
+HJ afso.alexanderstreet.com
+HJ ahiv.alexanderstreet.com
+HJ amso.alexanderstreet.com
+HJ ant1.alexanderstreet.com
+HJ anth.alexanderstreet.com
+HJ anto.alexanderstreet.com
+HJ area.alexanderstreet.com
+HJ artv.alexanderstreet.com
+HJ atho.alexanderstreet.com
+HJ ativ.alexanderstreet.com
+HJ bakr.alexanderstreet.com
+HJ bart.alexanderstreet.com
+HJ bld2.alexanderstreet.com
+HJ bldr.alexanderstreet.com
+HJ blfi.alexanderstreet.com
+HJ blst.alexanderstreet.com
+HJ blsv.alexanderstreet.com
+HJ bltc.alexanderstreet.com
+HJ blww.alexanderstreet.com
+HJ busv.alexanderstreet.com
+HJ bwl2.alexanderstreet.com
+HJ bwld.alexanderstreet.com
+HJ cali.alexanderstreet.com
+HJ cjiv.alexanderstreet.com
+HJ clmu.alexanderstreet.com
+HJ clmv.alexanderstreet.com
+HJ comx.alexanderstreet.com
+HJ cpho.alexanderstreet.com
+HJ ctiv.alexanderstreet.com
+HJ curv.alexanderstreet.com
+HJ cwdb.alexanderstreet.com
+HJ cwld.alexanderstreet.com
+HJ cwo2.alexanderstreet.com
+HJ daiv.alexanderstreet.com
+HJ divo.alexanderstreet.com
+HJ dkbl.alexanderstreet.com
+HJ dlcr.alexanderstreet.com
+HJ dntl.alexanderstreet.com
+HJ ediv.alexanderstreet.com
+HJ eena.alexanderstreet.com
+HJ eenz.alexanderstreet.com
+HJ fash.alexanderstreet.com
+HJ feat.alexanderstreet.com
+HJ flms.alexanderstreet.com
+HJ flon.alexanderstreet.com
+HJ gild.alexanderstreet.com
+HJ glmu.alexanderstreet.com
+HJ glnd.alexanderstreet.com
+HJ harp.alexanderstreet.com
+HJ hist.alexanderstreet.com
+HJ hlth.alexanderstreet.com
+HJ humv.alexanderstreet.com
+HJ ibio.alexanderstreet.com
+HJ imld.alexanderstreet.com
+HJ ind2.alexanderstreet.com
+HJ indr.alexanderstreet.com
+HJ iwrp.alexanderstreet.com
+HJ jazz.alexanderstreet.com
+HJ ladd.alexanderstreet.com
+HJ lado.alexanderstreet.com
+HJ lali.alexanderstreet.com
+HJ lawv.alexanderstreet.com
+HJ laww.alexanderstreet.com
+HJ lgbt.alexanderstreet.com
+HJ linc.alexanderstreet.com
+HJ lit.alexanderstreet.com
+HJ litv.alexanderstreet.com
+HJ lrho.alexanderstreet.com
+HJ mcom.alexanderstreet.com
+HJ media.alexanderstreet.com
+HJ mediaplus.alexanderstreet.com
+HJ moto.alexanderstreet.com
+HJ muco.alexanderstreet.com
+HJ music.alexanderstreet.com
+HJ mwld.alexanderstreet.com
+HJ nad2.alexanderstreet.com
+HJ nadr.alexanderstreet.com
+HJ nwld.alexanderstreet.com
+HJ opiv.alexanderstreet.com
+HJ orhi.alexanderstreet.com
+HJ phlv.alexanderstreet.com
+HJ psyc.alexanderstreet.com
+HJ psyv.alexanderstreet.com
+HJ radr.alexanderstreet.com
+HJ rom2.alexanderstreet.com
+HJ romr.alexanderstreet.com
+HJ rout.alexanderstreet.com
+HJ rtiv.alexanderstreet.com
+HJ sali.alexanderstreet.com
+HJ sciv.alexanderstreet.com
+HJ search.alexanderstreet.com
+HJ shmu.alexanderstreet.com
+HJ silf.alexanderstreet.com
+HJ sixt.alexanderstreet.com
+HJ soth.alexanderstreet.com
+HJ spex.alexanderstreet.com
+HJ sth2.alexanderstreet.com
+HJ swrp.alexanderstreet.com
+HJ tcpt.alexanderstreet.com
+HJ tcr1.alexanderstreet.com
+HJ tcr2.alexanderstreet.com
+HJ tcr3.alexanderstreet.com
+HJ tcrb.alexanderstreet.com
+HJ tcrt.alexanderstreet.com
+HJ vasc.alexanderstreet.com
+HJ vast.alexanderstreet.com
+HJ video.alexanderstreet.com
+HJ wasi.alexanderstreet.com
+HJ wasm.alexanderstreet.com
+HJ wass.alexanderstreet.com
+HJ whiv.alexanderstreet.com
+HJ wlid.alexanderstreet.com
+HJ wlit.alexanderstreet.com
+HJ wnrv.alexanderstreet.com
+HJ wodr.alexanderstreet.com
+HJ womu.alexanderstreet.com
+HJ womv.alexanderstreet.com
+HJ wwav.alexanderstreet.com
+HJ www.alexanderstreet.com
+HJ ui-7264.lazr.ci.alexanderstreet.com
+HJ solomon.aadr.alexanderstreet.com
+HJ solomon.aamr.alexanderstreet.com
+HJ solomon.adli.alexanderstreet.com
+HJ solomon.afso.alexanderstreet.com
+HJ solomon.ahiv.alexanderstreet.com
+HJ solomon.amso.alexanderstreet.com
+HJ solomon.ant1.alexanderstreet.com
+HJ solomon.anth.alexanderstreet.com
+HJ solomon.anto.alexanderstreet.com
+HJ solomon.area.alexanderstreet.com
+HJ solomon.artv.alexanderstreet.com
+HJ solomon.atho.alexanderstreet.com
+HJ solomon.ativ.alexanderstreet.com
+HJ solomon.bakr.alexanderstreet.com
+HJ solomon.bart.alexanderstreet.com
+HJ solomon.bld2.alexanderstreet.com
+HJ solomon.bldr.alexanderstreet.com
+HJ solomon.blfi.alexanderstreet.com
+HJ solomon.blst.alexanderstreet.com
+HJ solomon.blsv.alexanderstreet.com
+HJ solomon.bltc.alexanderstreet.com
+HJ solomon.blww.alexanderstreet.com
+HJ solomon.busv.alexanderstreet.com
+HJ solomon.bwl2.alexanderstreet.com
+HJ solomon.bwld.alexanderstreet.com
+HJ solomon.cali.alexanderstreet.com
+HJ solomon.cjiv.alexanderstreet.com
+HJ solomon.clmu.alexanderstreet.com
+HJ solomon.clmv.alexanderstreet.com
+HJ solomon.comx.alexanderstreet.com
+HJ solomon.cpho.alexanderstreet.com
+HJ solomon.ctiv.alexanderstreet.com
+HJ solomon.curv.alexanderstreet.com
+HJ solomon.cwdb.alexanderstreet.com
+HJ solomon.cwld.alexanderstreet.com
+HJ solomon.cwo2.alexanderstreet.com
+HJ solomon.daiv.alexanderstreet.com
+HJ solomon.divo.alexanderstreet.com
+HJ solomon.dkbl.alexanderstreet.com
+HJ solomon.dlcr.alexanderstreet.com
+HJ solomon.dntl.alexanderstreet.com
+HJ solomon.ediv.alexanderstreet.com
+HJ solomon.eena.alexanderstreet.com
+HJ solomon.eenz.alexanderstreet.com
+HJ solomon.fash.alexanderstreet.com
+HJ solomon.feat.alexanderstreet.com
+HJ solomon.flms.alexanderstreet.com
+HJ solomon.flon.alexanderstreet.com
+HJ solomon.gild.alexanderstreet.com
+HJ solomon.glmu.alexanderstreet.com
+HJ solomon.glnd.alexanderstreet.com
+HJ solomon.harp.alexanderstreet.com
+HJ solomon.hist.alexanderstreet.com
+HJ solomon.hlth.alexanderstreet.com
+HJ solomon.humv.alexanderstreet.com
+HJ solomon.ibio.alexanderstreet.com
+HJ solomon.imld.alexanderstreet.com
+HJ solomon.ind2.alexanderstreet.com
+HJ solomon.indr.alexanderstreet.com
+HJ solomon.iwrp.alexanderstreet.com
+HJ solomon.jazz.alexanderstreet.com
+HJ solomon.lali.alexanderstreet.com
+HJ solomon.lawv.alexanderstreet.com
+HJ solomon.laww.alexanderstreet.com
+HJ solomon.lgbt.alexanderstreet.com
+HJ solomon.linc.alexanderstreet.com
+HJ solomon.lit.alexanderstreet.com
+HJ solomon.litv.alexanderstreet.com
+HJ solomon.lrho.alexanderstreet.com
+HJ solomon.mcom.alexanderstreet.com
+HJ solomon.moto.alexanderstreet.com
+HJ solomon.muco.alexanderstreet.com
+HJ solomon.music.alexanderstreet.com
+HJ solomon.mwld.alexanderstreet.com
+HJ solomon.nad2.alexanderstreet.com
+HJ solomon.nadr.alexanderstreet.com
+HJ solomon.nwld.alexanderstreet.com
+HJ solomon.opiv.alexanderstreet.com
+HJ solomon.orhi.alexanderstreet.com
+HJ solomon.phlv.alexanderstreet.com
+HJ solomon.psyc.alexanderstreet.com
+HJ solomon.psyv.alexanderstreet.com
+HJ solomon.radr.alexanderstreet.com
+HJ solomon.rom2.alexanderstreet.com
+HJ solomon.romr.alexanderstreet.com
+HJ solomon.rout.alexanderstreet.com
+HJ solomon.rtiv.alexanderstreet.com
+HJ solomon.sali.alexanderstreet.com
+HJ solomon.sciv.alexanderstreet.com
+HJ solomon.search.alexanderstreet.com
+HJ solomon.shmu.alexanderstreet.com
+HJ solomon.silf.alexanderstreet.com
+HJ solomon.sixt.alexanderstreet.com
+HJ solomon.soth.alexanderstreet.com
+HJ solomon.spex.alexanderstreet.com
+HJ solomon.sth2.alexanderstreet.com
+HJ solomon.swrp.alexanderstreet.com
+HJ solomon.tcpt.alexanderstreet.com
+HJ solomon.tcr1.alexanderstreet.com
+HJ solomon.tcr2.alexanderstreet.com
+HJ solomon.tcrb.alexanderstreet.com
+HJ solomon.tcrt.alexanderstreet.com
+HJ solomon.vasc.alexanderstreet.com
+HJ solomon.vast.alexanderstreet.com
+HJ solomon.video.alexanderstreet.com
+HJ solomon.wasi.alexanderstreet.com
+HJ solomon.wasm.alexanderstreet.com
+HJ solomon.wass.alexanderstreet.com
+HJ solomon.whiv.alexanderstreet.com
+HJ solomon.wlid.alexanderstreet.com
+HJ solomon.wlit.alexanderstreet.com
+HJ solomon.wnrv.alexanderstreet.com
+HJ solomon.wodr.alexanderstreet.com
+HJ solomon.womu.alexanderstreet.com
+HJ solomon.womv.alexanderstreet.com
+HJ solomon.wwav.alexanderstreet.com
+HJ asp6new.alexanderstreet.com
+HJ https://aadr.alexanderstreet.com
+HJ https://aamr.alexanderstreet.com
+HJ https://adli.alexanderstreet.com
+HJ https://afso.alexanderstreet.com
+HJ https://ahiv.alexanderstreet.com
+HJ https://amso.alexanderstreet.com
+HJ https://ant1.alexanderstreet.com
+HJ https://anth.alexanderstreet.com
+HJ https://anto.alexanderstreet.com
+HJ https://area.alexanderstreet.com
+HJ https://artv.alexanderstreet.com
+HJ https://atho.alexanderstreet.com
+HJ https://ativ.alexanderstreet.com
+HJ https://bakr.alexanderstreet.com
+HJ https://bart.alexanderstreet.com
+HJ https://bld2.alexanderstreet.com
+HJ https://bldr.alexanderstreet.com
+HJ https://blfi.alexanderstreet.com
+HJ https://blst.alexanderstreet.com
+HJ https://blsv.alexanderstreet.com
+HJ https://bltc.alexanderstreet.com
+HJ https://blww.alexanderstreet.com
+HJ https://busv.alexanderstreet.com
+HJ https://bwl2.alexanderstreet.com
+HJ https://bwld.alexanderstreet.com
+HJ https://cali.alexanderstreet.com
+HJ https://cjiv.alexanderstreet.com
+HJ https://clmu.alexanderstreet.com
+HJ https://clmv.alexanderstreet.com
+HJ https://comx.alexanderstreet.com
+HJ https://cpho.alexanderstreet.com
+HJ https://ctiv.alexanderstreet.com
+HJ https://curv.alexanderstreet.com
+HJ https://cwdb.alexanderstreet.com
+HJ https://cwld.alexanderstreet.com
+HJ https://cwo2.alexanderstreet.com
+HJ https://daiv.alexanderstreet.com
+HJ https://divo.alexanderstreet.com
+HJ https://dkbl.alexanderstreet.com
+HJ https://dlcr.alexanderstreet.com
+HJ https://dntl.alexanderstreet.com
+HJ https://ediv.alexanderstreet.com
+HJ https://eena.alexanderstreet.com
+HJ https://eenz.alexanderstreet.com
+HJ https://fash.alexanderstreet.com
+HJ https://feat.alexanderstreet.com
+HJ https://flms.alexanderstreet.com
+HJ https://flon.alexanderstreet.com
+HJ https://gild.alexanderstreet.com
+HJ https://glmu.alexanderstreet.com
+HJ https://glnd.alexanderstreet.com
+HJ https://harp.alexanderstreet.com
+HJ https://hist.alexanderstreet.com
+HJ https://hlth.alexanderstreet.com
+HJ https://humv.alexanderstreet.com
+HJ https://ibio.alexanderstreet.com
+HJ https://imld.alexanderstreet.com
+HJ https://ind2.alexanderstreet.com
+HJ https://indr.alexanderstreet.com
+HJ https://iwrp.alexanderstreet.com
+HJ https://jazz.alexanderstreet.com
+HJ https://ladd.alexanderstreet.com
+HJ https://lali.alexanderstreet.com
+HJ https://lawv.alexanderstreet.com
+HJ https://laww.alexanderstreet.com
+HJ https://lgbt.alexanderstreet.com
+HJ https://linc.alexanderstreet.com
+HJ https://lit.alexanderstreet.com
+HJ https://litv.alexanderstreet.com
+HJ https://lrho.alexanderstreet.com
+HJ https://mcom.alexanderstreet.com
+HJ https://moto.alexanderstreet.com
+HJ https://muco.alexanderstreet.com
+HJ https://music.alexanderstreet.com
+HJ https://mwld.alexanderstreet.com
+HJ https://nad2.alexanderstreet.com
+HJ https://nadr.alexanderstreet.com
+HJ https://nwld.alexanderstreet.com
+HJ https://opiv.alexanderstreet.com
+HJ https://orhi.alexanderstreet.com
+HJ https://phlv.alexanderstreet.com
+HJ https://psyc.alexanderstreet.com
+HJ https://psyv.alexanderstreet.com
+HJ https://radr.alexanderstreet.com
+HJ https://rom2.alexanderstreet.com
+HJ https://romr.alexanderstreet.com
+HJ https://rout.alexanderstreet.com
+HJ https://rtiv.alexanderstreet.com
+HJ https://sali.alexanderstreet.com
+HJ https://sciv.alexanderstreet.com
+HJ https://search.alexanderstreet.com
+HJ https://shmu.alexanderstreet.com
+HJ https://silf.alexanderstreet.com
+HJ https://sixt.alexanderstreet.com
+HJ https://soth.alexanderstreet.com
+HJ https://spex.alexanderstreet.com
+HJ https://sth2.alexanderstreet.com
+HJ https://swrp.alexanderstreet.com
+HJ https://tcpt.alexanderstreet.com
+HJ https://tcr1.alexanderstreet.com
+HJ https://tcr2.alexanderstreet.com
+HJ https://tcrb.alexanderstreet.com
+HJ https://tcrt.alexanderstreet.com
+HJ https://vasc.alexanderstreet.com
+HJ https://vast.alexanderstreet.com
+HJ https://video.alexanderstreet.com
+HJ https://wasi.alexanderstreet.com
+HJ https://wasm.alexanderstreet.com
+HJ https://wass.alexanderstreet.com
+HJ https://whiv.alexanderstreet.com
+HJ https://wlid.alexanderstreet.com
+HJ https://wlit.alexanderstreet.com
+HJ https://wnrv.alexanderstreet.com
+HJ https://wodr.alexanderstreet.com
+HJ https://womu.alexanderstreet.com
+HJ https://womv.alexanderstreet.com
+HJ https://wwav.alexanderstreet.com
+HJ https://www.alexanderstreet.com
+HJ https://ui-7264.lazr.ci.alexanderstreet.com
+HJ https://solomon.aadr.alexanderstreet.com
+HJ https://solomon.aamr.alexanderstreet.com
+HJ https://solomon.adli.alexanderstreet.com
+HJ https://solomon.afso.alexanderstreet.com
+HJ https://solomon.ahiv.alexanderstreet.com
+HJ https://solomon.amso.alexanderstreet.com
+HJ https://solomon.ant1.alexanderstreet.com
+HJ https://solomon.anth.alexanderstreet.com
+HJ https://solomon.anto.alexanderstreet.com
+HJ https://solomon.area.alexanderstreet.com
+HJ https://solomon.artv.alexanderstreet.com
+HJ https://solomon.atho.alexanderstreet.com
+HJ https://solomon.ativ.alexanderstreet.com
+HJ https://solomon.bakr.alexanderstreet.com
+HJ https://solomon.bart.alexanderstreet.com
+HJ https://solomon.bld2.alexanderstreet.com
+HJ https://solomon.bldr.alexanderstreet.com
+HJ https://solomon.blfi.alexanderstreet.com
+HJ https://solomon.blst.alexanderstreet.com
+HJ https://solomon.blsv.alexanderstreet.com
+HJ https://solomon.bltc.alexanderstreet.com
+HJ https://solomon.blww.alexanderstreet.com
+HJ https://solomon.busv.alexanderstreet.com
+HJ https://solomon.bwl2.alexanderstreet.com
+HJ https://solomon.bwld.alexanderstreet.com
+HJ https://solomon.cali.alexanderstreet.com
+HJ https://solomon.cjiv.alexanderstreet.com
+HJ https://solomon.clmu.alexanderstreet.com
+HJ https://solomon.clmv.alexanderstreet.com
+HJ https://solomon.comx.alexanderstreet.com
+HJ https://solomon.cpho.alexanderstreet.com
+HJ https://solomon.ctiv.alexanderstreet.com
+HJ https://solomon.curv.alexanderstreet.com
+HJ https://solomon.cwdb.alexanderstreet.com
+HJ https://solomon.cwld.alexanderstreet.com
+HJ https://solomon.cwo2.alexanderstreet.com
+HJ https://solomon.daiv.alexanderstreet.com
+HJ https://solomon.divo.alexanderstreet.com
+HJ https://solomon.dkbl.alexanderstreet.com
+HJ https://solomon.dlcr.alexanderstreet.com
+HJ https://solomon.dntl.alexanderstreet.com
+HJ https://solomon.ediv.alexanderstreet.com
+HJ https://solomon.eena.alexanderstreet.com
+HJ https://solomon.eenz.alexanderstreet.com
+HJ https://solomon.fash.alexanderstreet.com
+HJ https://solomon.feat.alexanderstreet.com
+HJ https://solomon.flms.alexanderstreet.com
+HJ https://solomon.flon.alexanderstreet.com
+HJ https://solomon.gild.alexanderstreet.com
+HJ https://solomon.glmu.alexanderstreet.com
+HJ https://solomon.glnd.alexanderstreet.com
+HJ https://solomon.harp.alexanderstreet.com
+HJ https://solomon.hist.alexanderstreet.com
+HJ https://solomon.hlth.alexanderstreet.com
+HJ https://solomon.humv.alexanderstreet.com
+HJ https://solomon.ibio.alexanderstreet.com
+HJ https://solomon.imld.alexanderstreet.com
+HJ https://solomon.ind2.alexanderstreet.com
+HJ https://solomon.indr.alexanderstreet.com
+HJ https://solomon.iwrp.alexanderstreet.com
+HJ https://solomon.jazz.alexanderstreet.com
+HJ https://solomon.lali.alexanderstreet.com
+HJ https://solomon.lawv.alexanderstreet.com
+HJ https://solomon.laww.alexanderstreet.com
+HJ https://solomon.lgbt.alexanderstreet.com
+HJ https://solomon.linc.alexanderstreet.com
+HJ https://solomon.lit.alexanderstreet.com
+HJ https://solomon.litv.alexanderstreet.com
+HJ https://solomon.lrho.alexanderstreet.com
+HJ https://solomon.mcom.alexanderstreet.com
+HJ https://solomon.moto.alexanderstreet.com
+HJ https://solomon.muco.alexanderstreet.com
+HJ https://solomon.music.alexanderstreet.com
+HJ https://solomon.mwld.alexanderstreet.com
+HJ https://solomon.nad2.alexanderstreet.com
+HJ https://solomon.nadr.alexanderstreet.com
+HJ https://solomon.nwld.alexanderstreet.com
+HJ https://solomon.opiv.alexanderstreet.com
+HJ https://solomon.orhi.alexanderstreet.com
+HJ https://solomon.phlv.alexanderstreet.com
+HJ https://solomon.psyc.alexanderstreet.com
+HJ https://solomon.psyv.alexanderstreet.com
+HJ https://solomon.radr.alexanderstreet.com
+HJ https://solomon.rom2.alexanderstreet.com
+HJ https://solomon.romr.alexanderstreet.com
+HJ https://solomon.rout.alexanderstreet.com
+HJ https://solomon.rtiv.alexanderstreet.com
+HJ https://solomon.sali.alexanderstreet.com
+HJ https://solomon.sciv.alexanderstreet.com
+HJ https://solomon.search.alexanderstreet.com
+HJ https://solomon.shmu.alexanderstreet.com
+HJ https://solomon.silf.alexanderstreet.com
+HJ https://solomon.sixt.alexanderstreet.com
+HJ https://solomon.soth.alexanderstreet.com
+HJ https://solomon.spex.alexanderstreet.com
+HJ https://solomon.sth2.alexanderstreet.com
+HJ https://solomon.swrp.alexanderstreet.com
+HJ https://solomon.tcpt.alexanderstreet.com
+HJ https://solomon.tcr1.alexanderstreet.com
+HJ https://solomon.tcr2.alexanderstreet.com
+HJ https://solomon.tcrb.alexanderstreet.com
+HJ https://solomon.tcrt.alexanderstreet.com
+HJ https://solomon.vasc.alexanderstreet.com
+HJ https://solomon.vast.alexanderstreet.com
+HJ https://solomon.video.alexanderstreet.com
+HJ https://solomon.wasi.alexanderstreet.com
+HJ https://solomon.wasm.alexanderstreet.com
+HJ https://solomon.wass.alexanderstreet.com
+HJ https://solomon.whiv.alexanderstreet.com
+HJ https://solomon.wlid.alexanderstreet.com
+HJ https://solomon.wlit.alexanderstreet.com
+HJ https://solomon.wnrv.alexanderstreet.com
+HJ https://solomon.wodr.alexanderstreet.com
+HJ https://solomon.womu.alexanderstreet.com
+HJ https://solomon.womv.alexanderstreet.com
+HJ https://solomon.wwav.alexanderstreet.com
+HJ https://asp6new.alexanderstreet.com
+HJ https://www.academicvideostore.com
+HJ www.academicvideostore.com
+Host www.aspresolver.com
+Host aspresolver.com
+Host https://www.aspresolver.com
+Domain aspresolver.com
+DJ academicvideostore.com
+HJ cdn.alexanderstreet.com
+Find "http:\/\/ 
+Replace "http:// 
+Find "https:\/\/ 
+Replace "https:// 
+Find domain="*.alexanderstreet.com" 
+Replace domain="*"
+
+Title Alexander Street Press MARC Records (updated 20211007)
+URL http://www.aspresolver.com
+HJ https://www.aspresolver.com
+DJ aspresolver.com
+
+Title Alexander Street Video (updated 20201117)
+URL https://video.alexanderstreet.com
+DJ video.alexanderstreet.com
+NeverProxy https://dq8wtqudsgu83.cloudfront.net
+NeverProxy d3crmev290s45i.cloudfront.net
+NeverProxy media.proquest.com
+
+# Added per ralight 2022-11-07
+# Stanza for non-subscribed/free resource added to reduce needhost errors
+Title American Academy of Pediatrics (updated 20220609)
+URL https://publications.aap.org
+HJ https://publications.aap.org
+HJ https://publications.aap.org/aapgrandrounds/
+HJ https://publications.aap.org/neoreviews/
+HJ https://publications.aap.org/pediatrics/pages/policy/
+HJ https://publications.aap.org/redbook/
+HJ https://publications.aap.org/aapnews/
+HJ https://publications.aap.org/hospitalpediatrics/
+HJ https://publications.aap.org/pediatricsInreview/
+HJ https://publications.aap.org/pediatrics/
+HJ https://publications.aap.org/aapbooks/
+HJ https://publications.aap.org/journals/
+HJ https://publications.aap.org/codingnews
+HJ https://publications.aap.org/pediatriccare
+HJ https://publications.aap.org/patiented
+HJ https://publications.aap.org/toolkits
+HJ https://www.aap.org
+HJ https://coding.aap.org
+HJ https://aapgrandrounds.org
+HJ https://neoreviews.org
+HJ https://aappolicy.org
+HJ https://aapredbook.org
+HJ https://aapnews.org
+HJ https://hospitalpediatrics.org
+HJ https://pedsinreview.org
+HJ https://pediatrics.org
+HJ https://aapjournals.org
+HJ https://aappublications.org
+HJ https://pediatriccareonline.org
+HJ https://aap.org
+HJ https://aapebooks.org
+HJ https://aappublications.org
+DJ publications.aap.org
+DJ coding.aap.org
+DJ aapgrandrounds.org
+DJ neoreviews.org
+DJ aappolicy.org
+DJ aapredbook.org
+DJ aapnews.org
+DJ hospitalpediatrics.org
+DJ pedsinreview.org
+DJ pediatrics.org
+DJ aapjournals.org
+DJ aappublications.org
+DJ pediatriccareonline.org
+DJ aapebooks.org
+DJ aap.org
+Neverproxy aap2.silverchair-cdn.com
+
+Title American Chemical Society
+URL http://pubs.acs.org
+HJ acs.org
+HJ cenglobal.acs.org
+HJ https://cenglobal.acs.org
+HJ https://pubs.acs.org
+HJ pubs.acs.org
+HJ www.acs.org
+HJ www.chemistry.org
+HJ www.pubs.acs.org
+DJ acs.org
+Find hostdev="pubsdev.acs.org"
+Replace hostdev="^ppubsdev.acs.org^"
+Find hosttest="pubstest.acs.org"
+Replace hosttest="^ppubstest.acs.org^"
+Find hostprod="pubs.acs.org"
+Replace hostprod="^ppubs.acs.org^"
+
+T   	 American Economic Association
+U 	 https://www.aeaweb.org
+DJ      aeaweb.org
+H	 https://www.aeaweb.org
+
+T 	 American Journal of Botany
+U      http://www.amjbot.org
+DJ     amjbot.org
+
+#T 	 American Journal of Psychiatry
+#U      http://ajp.psychiatryonline.org
+#DJ     psychiatryonline.org
+
+T      American Library Association Books
+URL   http://www.guidetoreference.org
+DJ     guidetoreference.org
+DJ     americanlibrariesmagazine.org/archives
+
+Title  Ammons Scientific
+URL	 http://www.amsciepub.com
+DJ	 ammonsscientific.com
+HJ       archive.ammonsscientific.com
+DJ       amsciepub.com
+DJ 	 16u.org
+
+Title Annual Reviews
+URL http://www.annualreviews.org/
+HJ annualreviews.org
+HJ anchem.annualreviews.org
+HJ animal.annualreviews.org
+HJ anthro.annualreviews.org
+HJ arcompsci.annualreviews.org
+HJ arjournals.annualreviews.org
+HJ arplant.annualreviews.org
+HJ astro.annualreviews.org
+HJ biochem.annualreviews.org
+HJ bioeng.annualreviews.org
+HJ biophys.annualreviews.org
+HJ cellbio.annualreviews.org
+HJ chembioeng.annualreviews.org
+HJ clinpsy.annualreviews.org
+HJ conmatphys.annualreviews.org
+HJ earth.annualreviews.org
+HJ ecolsys.annualreviews.org
+HJ economics.annualreviews.org
+HJ energy.annualreviews.org
+HJ ento.annualreviews.org
+HJ financial.annualreviews.org
+HJ fluid.annualreviews.org
+HJ food.annualreviews.org
+HJ genet.annualreviews.org
+HJ genom.annualreviews.org
+HJ https://www.annualreviews.org
+HJ immunol.annualreviews.org
+HJ lawsocsci.annualreviews.org
+HJ linguistics.annualreviews.org
+HJ marine.annualreviews.org
+HJ matsci.annualreviews.org
+HJ med.annualreviews.org
+HJ micro.annualreviews.org
+HJ neuro.annualreviews.org
+HJ nucl.annualreviews.org
+HJ nutr.annualreviews.org
+HJ orgpsych.annualreviews.org
+HJ pathmechdis.annualreviews.org
+HJ pharmtox.annualreviews.org
+HJ physchem.annualreviews.org
+HJ physiol.annualreviews.org
+HJ phyto.annualreviews.org
+HJ plant.annualreviews.org
+HJ polisci.annualreviews.org
+HJ psych.annualreviews.org
+HJ publhealth.annualreviews.org
+HJ resource.annualreviews.org
+HJ soc.annualreviews.org
+HJ statistics.annualreviews.org
+HJ virology.annualreviews.org
+HJ vision.annualreviews.org
+HJ www.annualreviews.org
+DJ annualreviews.org
+
+Title  BioMed Central
+URL    http://www.biomedcentral.com/inst/21800
+DJ     biomedcentral.com
+
+# Updated per ralight 2022-12-21
+Title BioOne Complete (updated 20200923)
+URL https://www.bioone.org/
+HJ http://www.bioone.org
+HJ https://bioone.org
+HJ http://bioone.org
+HJ www.bioone.org
+DJ bioone.org
+
+Title  Blackwell-Synergy
+URL    http://www.blackwell-synergy.com
+OPTION DOMAINCOOKIEONLY
+DJ     blackwell-synergy.com
+OPTION COOKIE
+
+Title  Bloom's Literary Reference Online
+URL    http://online.infobaselearning.com/Direct.aspx?aid=102977&pid=WE54
+DJ     fofweb.com
+D      infobaselearning.com
+H	online.infobaselearning.com
+
+# Updated per ralight 2023-11-01
+Option CookiePassThrough
+Title BMJ (Updated 20231020)
+URL http://journals.bmj.com
+Domain group.bmj.com
+HJ https://journals.bmj.com
+HJ https://bestpractice.bmj.com
+HJ https://www.bmj.com
+HJ https://myaccount.bmj.com
+HJ myaccount.bmj.com
+HJ adc.bmj.com
+HJ https://adc.bmj.com
+HJ adc.bmjjournals.com
+HJ aim.bmj.com
+HJ https://aim.bmj.com
+HJ ard.bmj.com
+HJ https://ard.bmj.com
+HJ ard.bmjjournals.com
+HJ bestpractice.bmj.com
+HJ bjo.bmj.com
+HJ https://bjo.bmj.com
+HJ bjo.bmjjournals.com
+HJ bjsm.bmj.com
+HJ https://bjsm.bmj.com
+HJ bjsm.bmjjournals.com
+HJ bmjleader.bmj.com
+HJ https://bmjleader.bmj.com
+HJ bmj.com
+HJ bmjopen.bmj.com
+HJ https://bmjopen.bmj.com
+HJ bmjopengastro.bmj.com
+HJ https://bmjopengastro.bmj.com
+HJ bmjopenrespres.bmj.com
+HJ https://bmjopenrespres.bmj.com
+HJ bmjopensem.bmj.com
+HJ https://bmjopensem.bmj.com
+HJ casereports.bmj.com
+HJ casereports.bmjjournals.com
+HJ https://casereports.bmj.com
+HJ clinicalevidence.bmj.com
+HJ clinicalevidence.com
+HJ https://clinicalevidence.bmj.com
+HJ drc.bmj.com
+HJ https://drc.bmj.com
+HJ dtb.bmj.com
+HJ https://dtb.bmj.com
+HJ ebm.bmj.com
+HJ https://ebm.bmj.com
+HJ ebm.bmjjournals.com
+HJ ebmh.bmj.com
+HJ https://ebmh.bmj.com
+HJ ebmh.bmjjournals.com
+HJ ebn.bmj.com
+HJ https://ebn.bmj.com
+HJ ebn.bmjjournals.com
+HJ ejhp.bmj.com
+HJ https://ejhp.bmj.com
+HJ emails.bmj.com
+HJ emj.bmj.com
+HJ https://emj.bmj.com
+HJ emj.bmjjournals.com
+HJ ep.bmj.com
+HJ https://ep.bmj.com
+HJ ep.bmjjournals.com
+HJ fg.bmj.com
+HJ https://fg.bmj.com
+HJ fn.bmj.com
+HJ https://fn.bmj.com
+HJ fn.bmjjournals.com
+HJ group.bmj.com
+HJ gut.bmj.com
+HJ https://gut.bmj.com
+HJ gut.bmjjournals.com
+HJ heart.bmj.com
+HJ https://heart.bmj.com
+HJ heart.bmjjournals.com
+HJ heartasia.bmj.com
+HJ https://heartasia.bmj.com
+HJ ijgc.bmj.com
+HJ https://ijgc.bmj.com
+HJ injuryprevention.bmj.com
+HJ https://injuryprevention.bmj.com
+HJ innovations.bmj.com
+HJ https://innovations.bmj.com
+HJ inpractice.bmj.com
+HJ https://inpractice.bmj.com
+HJ inpractice.bvapublications.com
+HJ ip.bmj.com
+HJ jamia.bmj.com
+HJ jamia.bmjjournals.com
+HJ jcp.bmj.com
+HJ https://jcp.bmj.com
+HJ jcp.bmjjournals.com
+HJ jech.bmj.com
+HJ https://jech.bmj.com
+HJ jech.bmjjournals.com
+HJ jech.com
+HJ https://jfprhc.bmj.com
+HJ jfprhc.bmj.com
+HJ jme.bmj.com
+HJ https://jme.bmj.com
+HJ jme.bmjjournals.com
+HJ jmedethics.com
+HJ jmedgenet.com
+HJ jmg.bmj.com
+HJ https://jmg.bmj.com
+HJ jmg.bmjjournals.com
+HJ jnis.bmj.com
+HJ https://jnis.bmj.com
+HJ jnnp.bmj.com
+HJ https://jnnp.bmj.com
+HJ jnnp.bmjjournals.com
+HJ jnnp.com
+HJ journals.bmj.com
+HJ jramc.bmj.com
+HJ https://jramc.bmj.com
+HJ learning.bmj.com
+HJ https://learning.bmj.com
+HJ lupus.bmj.com
+HJ https://lupus.bmj.com
+HJ mh.bmj.com
+HJ https://mh.bmj.com
+HJ mh.bmjjournals.com
+HJ mp.bmj.com
+HJ https://mp.bmj.com
+HJ mp.bmjjournals.com
+HJ https://new-learning.bmj.com
+HJ new-learning.bmj.com
+HJ oem.bmj.com
+HJ https://oem.bmj.com
+HJ oem.bmjjournals.com
+HJ openheart.bmj.com
+HJ https://openheart.bmj.com
+HJ bmjopenquality.bmj.com
+HJ https://bmjopenquality.bmj.com
+HJ pmj.bmj.com
+HJ https://pmj.bmj.com
+HJ pmj.bmjjournals.com
+HJ pn.bmj.com
+HJ https://pn.bmj.com
+HJ pn.bmjjournals.com
+HJ qir.bmj.com
+HJ qshc.bmj.com
+HJ qshc.bmjjournals.com
+HJ qualitysafety.bmj.com
+HJ https://qualitysafety.bmj.com
+HJ rmdopen.bmj.com
+HJ https://rmdopen.bmj.com
+HJ https://rtop.bmj.com
+HJ http://rtop.bmj.com
+HJ rtop.bmj.com
+HJ spcare.bmj.com
+HJ https://spcare.bmj.com
+HJ srh.bmj.com
+HJ https://srh.bmj.com
+HJ stel.bmj.com
+HJ https://stel.bmj.com
+HJ sti.bmj.com
+HJ https://sti.bmj.com
+HJ sti.bmjjournals.com
+HJ student.bmj.com
+HJ https://student.bmj.com
+HJ tc.bmj.com
+HJ http://tc.bmj.com
+HJ thorax.bmj.com
+HJ https://thorax.bmj.com
+HJ thorax.bmjjournals.com
+HJ tobaccocontrol.bmj.com
+HJ https://tobaccocontrol.bmj.com
+HJ us.bestpractice.bmj.com
+HJ veterinaryrecord.bmj.com
+HJ https://veterinaryrecord.bmj.com
+HJ veterinaryrecord.bvapublications.com
+HJ vetrecordcasereports.bmj.com
+HJ https://vetrecordcasereports.bmj.com
+HJ vetrecordopen.bmj.com
+HJ https://gh.bmj.com
+HJ gh.bmj.com
+HJ https://vetrecordopen.bmj.com
+HJ www.clinicalevidence.com
+HJ https://rapm.bmj.com
+HJ rapm.bmj.com
+HJ www.bmj.com
+HJ www.bmjjournals.com
+HJ www.injuryprevention.com
+HJ www.jech.com
+HJ www.jnnp.com
+HJ www.jmedethics.com
+HJ www.jmedgenet.com
+# Extra host lines added to reduce needhost errors
+HJ https://sit.bmj.com
+HJ sit.bmj.com
+HJ https://gpsych.bmj.com
+DJ bmj.com
+HJ openurl.highwire.org
+Option Cookie
+
+# changed per Spencer and Kirsten's emails to use tokens
+# this is now near the top of the config file
+#Title Books 24X7
+#URL   http://www.books24X7.com
+#DJ    books24X7.com
+
+Title  Catalog of U.S. Government Publications
+URL    http://catalog.gpo.gov/F
+DJ     gpo.gov
+
+Title  CCH Internet Tax Network (old name)
+URL    http://tax.cchgroup.com/ipnetwork
+DJ     tax.cchgroup.com
+DJ     files.stf.com
+HJ	 cch.com
+HJ	 cchgroup.com
+
+Title  Chadwyck-Healey Databases and Early English Books Online
+URL    http://collections.chadwyck.com
+DJ     collections.chadwyck.com 
+DJ     chadwyck.com
+HJ     collections.chadwyck.co.uk
+HJ     acta.chadwyck.com
+HJ     afi.chadwyck.com
+HJ     brecht.chadwyck.com
+HJ     klassiker.chadwyck.com
+HJ     nsarchive.chadwyck.com
+HJ     fii.chadwyck.com
+HJ     goethe.chadwyck.com
+HJ     iibp.chadwyck.com
+HJ     iimpft.chadwyck.com
+HJ     iipaft.chadwyck.com
+HJ     pld.chadwyck.com
+HJ     pao.chadwyck.com
+HJ     pio.chadwyck.com	
+HJ     eebo.chadwyck.com
+HJ      pao.chadwyck.co.uk
+HJ	britishperiodicals.chadwyck.com
+HJ	c19index.chadwyck.com  
+HJ	fiaf.chadwyck.com/ 
+Find    chadwyck.co.uk
+Replace chadwyck.co.uk.^h
+
+Title CHEMnetBASE (updated 20210329)
+URL http://www.chemnetbase.com
+HJ carbo.chemnetbase.com
+HJ ccd.chemnetbase.com
+HJ chemnetbase.com
+HJ dccc.chemnetbase.com
+HJ dfc.chemnetbase.com
+HJ dioc.chemnetbase.com
+HJ dmnp.chemnetbase.com
+HJ dnp.chemnetbase.com
+HJ doc.chemnetbase.com
+HJ dod.chemnetbase.com
+HJ hbcp.chemnetbase.com
+HJ hbcpnetbase.com
+HJ hbcponline.com
+HJ https://ccd.chemnetbase.com
+HJ https://chemnetbase.com
+HJ https://dccc.chemnetbase.com
+HJ https://dfc.chemnetbase.com
+HJ https://dioc.chemnetbase.com
+HJ https://dmnp.chemnetbase.com
+HJ https://dnp.chemnetbase.com
+HJ https://doc.chemnetbase.com
+HJ https://dod.chemnetbase.com
+HJ https://hbcp.chemnetbase.com
+HJ https://hbcpnetbase.com
+HJ https://hbcponline.com
+HJ https://poc.chemnetbase.com
+HJ https://poly.chemnetbase.com
+HJ https://polymersdatabase.com
+HJ https://www.chemnetbase.com
+HJ https://www.hbcpnetbase.com
+HJ https://www.hbcponline.com
+HJ https://www.polymersdatabase.com
+HJ poc.chemnetbase.com
+HJ poly.chemnetbase.com
+HJ polymersdatabase.com
+HJ www.chemnetbase.com
+HJ www.hbcpnetbase.com
+HJ www.hbcponline.com
+HJ www.polymersdatabase.com
+DJ chemnetbase.com
+DJ hbcpnetbase.com
+DJ hbcponline.com
+DJ polymersdatabase.com
+
+# Updated per ralight 2022-09-08
+Title Choice Reviews (updated 20200408)
+URL https://www.choicereviews.org/
+HJ http://www.choicereviews.org/
+HJ www.choice360.org
+HJ choice360.org
+DJ choicereviews.org
+DJ choice360.org
+
+Title The Chronicle of Higher Education
+MimeFilter application/json .* javascript
+URL https://www.chronicle.com
+HJ http://chronicle.com
+HJ http://www.chronicle.com
+NeverProxy thechronicleofhighereducation.disqus.com
+NeverProxy disqus.com
+NeverProxy mediacdn.disqus.com
+DJ chronicle.com
+HJ chronicle.com
+HJ www.chronicle.com
+Find http:\/\/
+Replace http://
+
+Title   Clinical Evidence
+URL    http://www.clinicalevidence.com
+HJ     clinicalevidence.com
+DJ      clinicalevidence.com
+
+T      College & Research Libraries
+U      http://crl.acrl.org/content/by/year
+DJ     crl.acrl.org/content/by/year
+
+T      College & Research Libraries News
+U      http://crln.acrl.org/content
+DJ     crln.acrl.org/content
+
+T 	 CQ Databases
+URL	 http://www.cqpress.com
+HJ     library2.cqpress.com
+HJ 	 library.cqpress.com
+DJ 	 cqpress.com
+DJ 	 cq.com
+HJ 	 library.cq.com
+
+Option Cookie
+Title Credo Reference
+URL https://search.credoreference.com
+HJ api.credoreference.com
+HJ homework.credoreference.com
+HJ literati.credoreference.com
+HJ search.credoreference.com
+HJ vle.credoreference.com
+HJ credoreference.com
+HJ www.credoreference.com
+HJ https://api.credoreference.com
+HJ https://homework.credoreference.com
+HJ https://search.credoreference.com
+HJ https://vle.credoreference.com
+DJ credoreference.com
+NeverProxy assets.credoreference.com
+NeverProxy cdn.credoreference.com
+NeverProxy media.credoreference.com
+
+T 	Criminal Justice Abstracts CSA Sociological Abstracts & Social Science Abstracts
+H 	 www.csa.com
+U 	 http://www.csa.com/htbin/dbrng.cgi?username=se76&access=se7676&db=socioabs-set-c&db=ssa-set-c
+DJ 	 alt3.csa3.com
+DJ 	 csa.com
+DJ 	 csa2.com
+DJ 	 csa3.com
+DJ     www-ca1.csa.com
+DJ     www-ca2.csa.com
+DJ     ft2.csa.com
+H      ca2.csa.com
+H 	 md.csa.com
+H 	 md1.csa.com
+H 	 md2.csa.com
+H      md3.csa.com
+H 	 oh1.csa.com
+H 	 ca1.csa.com
+H 	 uk2.csa.com
+H 	 uk1.csa.com
+H 	 alt1.csa.com
+H 	 alt3.csa.com
+Host 	 www.csa1.co.uk
+Host 	 www.csa.com.tw
+Host 	 csa.tsinghua.edu.cn
+
+Title Dictionary of American Regional English
+URL http://www.daredictionary.com/
+Domain daredictionary.com
+
+Title Data-Planet
+HTTPHeader -request -process X-Requested-With
+HTTPHeader -request -process X-GWT-*
+URL https://statisticaldatasets.data-planet.com/dataplanet/
+HJ http://statisticaldatasets.data-planet.com
+DJ data-planet.com
+DJ conquestsystems.com
+
+Title  Digital Sanborn Maps
+URL    http://sanborn.umi.com
+DJ     sanborn.umi.com
+
+  
+T 	Directory of Open Access Journals
+U 	http://www.doaj.org
+D 	doaj.org
+
+Title Drama Online (updated 20200331)
+URL https://www.dramaonlinelibrary.com/
+HJ www.dramaonlinelibrary.com<http://www.dramaonlinelibrary.com>
+HJ dramaonlinelibrary.com
+HJ https://www.dramaonlinelibrary.com
+HJ https://dramaonlinelibrary.com
+DJ dramaonlinelibrary.com
+
+T      DTTP: Documents to the People 
+U      http://collections.stanford.edu/dttp/bin/browse/field/list?field=yearBrowse
+DJ     collections.stanford.edu/dttp/bin/browse/field/list?field=yearBrowse
+
+
+T      Dustbooks eDirectories
+URL    http://ebooks.dustbooks.com
+HJ     ebooks.dustbooks.com
+DJ     dustbooks.com
+
+
+Title  dx.doi.org
+URL    http://dx.doi.org
+DJ     dx.doi.org
+DJ     doi.org
+
+
+# Updated per ralight 2022-07-07
+Title Newsbank/Readex Databases (updated 20220628)
+MimeFilter application/octet-stream .* javascript
+URL https://infoweb.newsbank.com
+HJ docs.newsbank.com
+HJ https://docs.newsbank.com
+HJ https://newsbank.com
+HJ https://opac.newsbank.com
+HJ https://products.newsbank.com
+HJ https://stats.newsbank.com
+HJ https://www.newsbank.com
+HJ infoweb.newsbank.com
+HJ infoweb1.newsbank.com
+HJ infoweb2.newsbank.com
+HJ newsbank.com
+HJ opac.newsbank.com
+HJ products.newsbank.com
+HJ stats.newsbank.com
+HJ www.newsbank.com
+DJ newsbank.com
+Find document.domain =
+Replace document.domain = "^h"; ezproxyignore =
+NeverProxy google.com
+NeverProxy app.readspeaker.com
+NeverProxy cdn01.readspeaker.com
+NeverProxy app-na.readspeaker.com
+NeverProxy vttts-na.readspeaker.com
+NeverProxy media-na.readspeaker.com
+NeverProxy app-eu.readspeaker.com
+NeverProxy rstts-eu.readspeaker.com
+NeverProxy vttts-eu.readspeaker.com
+NeverProxy media-eu.readspeaker.com
+NeverProxy app-eas.readspeaker.com
+NeverProxy rstts-eas.readspeaker.com
+NeverProxy vttts-eas.readspeaker.com
+NeverProxy media-eas.readspeaker.com
+
+Option DomainCookieOnly
+Title ebrary
+URL    http://site.ebrary.com/lib/iuk
+DJ ebrary.com
+Find "site.ebrary.com/
+Replace "^psite.ebrary.com^/
+Option Cookie
+
+# Updated per ralight 2023-10-06
+Title Ebook Central Proxied
+URL https://ebookcentral.proquest.com/lib/iuk-ebooks
+HJ http://ebookcentral.proquest.com/lib/iuk-ebooks
+HJ https://ebookcentral.proquest.com/lib/iuk-ebooks
+DJ ebookcentral.proquest.com
+NeverProxy acs.ebookcentral.proquest.com
+
+Title  Ecological Society of America (ESA)
+URL    http://www.esapubs.org/esapubs/journals/ecology_main.htm
+HJ     www.esajournals.org/loi/ecol
+HJ     www.esajournals.org/loi/ebul
+HJ     www.esajournals.org/loi/ecap
+HJ     www.esajournals.org/loi/emon
+HJ     www.esajournals.org/loi/fron
+DJ     esajournals.org
+DJ     esapubs.org 
+
+T 	EBSCO EJS Portal 
+U 	http://ejournals.ebsco.com
+DJ 	ebsco.com
+DJ 	208.254.38.90
+
+Title  Encyclopedia of Reagents for Organic Synthesis (e- EROS) 
+URL http://www.mrw.interscience.wiley.com/eros/main.htm
+#DJ wiley.com
+
+Title Ent Today
+U http://www.enttoday.org
+H www.enttoday.org
+
+Title  ERIC Clearinghouse
+URL    http://www.eduref.org/Eric
+DJ     eduref.org
+
+# Updated per ralight 2023-05-17
+Title ERIC (OCLC IncludeFile updated 20230512)
+URL https://eric.ed.gov
+HJ eric.ed.gov
+HJ https://eric.ed.gov
+HJ www.eric.ed.gov
+HJ https://files.eric.ed.gov
+HJ files.eric.ed.gov
+DJ eric.ed.gov
+
+# Updated per cwlamb 2023-03-29
+HTTPHeader Access-Token
+Title Europa World Plus
+URL https://www.europaworld.com/
+HJ http://www.europaworld.com
+HJ www.europaworld.com
+DJ europaworld.com
+
+T 	 Extenza
+U 	 http://extenza-eps.com
+OPTION DOMAINCOOKIEONLY
+DJ extenza-eps.com
+OPTION COOKIE
+
+T Feature Films for Education
+U https://ffusa.infobase.com
+HJ https://MEDIA3.CRITERIONPIC.COM
+HJ https://MEDIA2.CRITERIONPIC.COM
+D infobase.com
+DJ CRITERIONPIC.COM
+
+Title Gale Nineteenth Century Collections Online
+URL http://gdc.galegroup.com/gdc/ncco/atp/AboutThisPublicationPortletWin?mCode=4WHC&action=e&windowstate=normal&mode=view&userGroupName=iulib_kokomo
+Domain ncco.galegroup.com
+Host gdc.galegroup.com
+host ncco.galegroup.com 
+
+Title GEOPlugin (updated 20200331)
+URL https://ssl.geoplugin.net
+Host https://ssl.geoplugin.net
+HJ ssl.geoplugin.net
+DJ geoplugin.net
+
+# Updated per ralight 2022-10-14
+Title Google Scholar (Updated 20221007)
+URL http://scholar.google.com
+Host https://scholar.google.com
+Host scholar.google.com.au
+Host https://scholar.google.com.au
+Host scholar.google.ca
+Host https://scholar.google.ca
+Host scholar.google.de
+Host https://scholar.google.de
+Host scholar.google.fi
+Host https://scholar.google.fi
+Host scholar.google.com.hk
+Host https://scholar.google.com.hk
+Host scholar.google.nl
+Host https://scholar.google.nl
+Host scholar.google.co.nz
+Host https://scholar.google.co.nz
+Host scholar.google.co.uk
+Host https://scholar.google.co.uk
+Host scholar.google.se
+Host https://scholar.google.se
+Host scholar.google.co.za
+Host https://scholar.google.co.za
+Host www.scholar.google.com
+Host https://scholar.google.ae
+Host scholar.google.ae
+Host https://scholar.google.be
+Host scholar.google.be
+Host https://scholar.google.it
+Host scholar.google.it
+
+Title  GPO Access Databases
+URL    http://www.gpoaccess.gov/  
+DJ     gpoaccess.gov
+
+Title Harper's Weekly
+URL https://app.harpweek.com
+HJ http://app.harpweek.com
+HJ harpweek.com
+DJ harpweek.com
+
+Title  Homeland Security Digital Library
+URL    http://www.hsdl.org
+DJ     hsdl.org
+H      https://www.hsdl.org
+
+Title  INCAT
+URL    http://www.ref.oclc.org/dbname=Indiana_Catalog&done=referer&timeout=600&FSIP
+DJ     ref.oclc.org
+DJ     oclc.org
+
+Title  Informe!
+URL    http://infotrac.galegroup.com/itweb/inspire_koko_sp  
+DJ     galegroup.com
+HJ     find.galegroup.com
+
+Title  Informs
+URL    http://journals.informs.org
+H      infosys.highwire.org/archive
+H      interface.highwire.org/archive
+H	 mansci.highwire.org/archive
+HJ     highwire.stanford.edu
+HJ     isr.joural.informs.org
+
+Title INGENTAconnect
+U http://www.ingenta.com/
+H www.ingenta.com
+H www.ingentaconnect.com
+DJ ingenta.com
+DJ ingentaconnect.com
+H openurl.ingenta.com
+H www.publishingtechnology.com
+DJ publishingtechnology.com
+
+# Title  INSPIRE, Indiana Virtual Library 
+# URL    http://www.inspire.net/ 
+# DJ     inspire.net
+# HJ     litfinder.com
+# HJ     litfinder.com/login_results.cfm?username=inspire&password=inspire
+
+T      Instruction Section Newsletter
+U      http://www.ala.org/acrl/aboutacrl/directoryofleadership/sections/is/iswebsite/projpubs/newsletter
+DJ     www.ala.org/acrl/aboutacrl/directoryofleadership/sections/is/iswebsite/projpubs/newsletter
+
+# Added per ralight 2023-07-20
+# Tracked in Single Journals in Ex Libris
+Title International Journal of Engineering Education
+URL https://www.ijee.ie
+HJ http://www.ijee.ie
+DJ ijee.ie
+
+# Updated per ralight 2024-04-17
+HTTPMethod DELETE
+Title CCH AnswerConnect and CCH Account Research Manager 3.0 (updated 20240405)
+HTTPHeader -request -process X-GWT-*
+HTTPHeader -request -process X-ApiKey
+HTTPHeader -request -process X-CPID
+HTTPHeader -request -process X-Api-Key
+HTTPHeader -request -process X-CSRF-Token
+URL https://www.answerconnect.cch.com
+HJ www.answerconnect.cch.com
+HJ https://answerconnect.cch.com
+HJ answerconnect.cch.com
+DJ wolterskluwer.com
+DJ cch.com
+DJ salestaxradar.com
+DJ cchgroup.com
+Neverproxy services.intelliconnect.cch.com
+Neverproxy mediaserver.cch.com
+
+# Updated per ralight 2023-06-14
+Title Vitallaw Premium (OCLC IncludeFile updated 20230612)
+Mimefilter application/json .* javascript
+HTTPHeader -request -process X-GWT-*
+HTTPHeader -request -process X-ApiKey
+HTTPHeader -request -process X-CPID
+HTTPHeader -request -process X-Api-Key
+HTTPHeader -request -process X-CSRF-Token
+URL https://my.vitallaw.com
+HJ http://my.vitallaw.com
+HJ https://login.wolterskluwer.com
+HJ https://tools.cch.com
+HJ https://smartcharts.cch.com
+HJ https://smartcharts.wolterskluwer.com
+HJ https://www.kluwerarbitration.com
+HJ https://www.kluwercompetitionlaw.com
+HJ https://www.kluweriplaw.com
+HJ https://www.rbsourcefilings.com
+DJ IntelliConnect.cch.com
+DJ cch.com
+DJ wolterskluwer.com
+DJ vitallaw.com
+Find http:\/\/
+Replace http://
+
+Title IUCAT
+URL	http://classic.iucat.iu.edu
+URL	http://classic.iucat-test.uits.iu.edu:12200
+HJ	classic.iucat.iu.edu
+HJ	classic.iucat-test.uits.iu.edu:12200
+
+T The Journal of Bone & Joint Surgery
+U http://jbjs.org/
+HJ www.jbjs.org
+HJ surgicaltechniques.jbjs.org
+HJ caseconnector.jbjs.org
+HJ www.ejbjs.org
+HJ www2.ejbjs.org
+DJ jbjs.org
+DJ ejbjs.org
+
+# Added per ralight 2022-08-19
+# Kanopy Videostreaming stanza should be listed before Kanopy stanza
+T Kanopy Videostreaming
+U https://iuk.kanopystreaming.com
+HJ http://iuk.kanopystreaming.com
+HJ iuk.kanopystreaming.com
+DJ kanopystreaming.com
+Find ! ksPattern.test(window.location.hostname)
+Replace 1 == 0
+
+# Added per ralight 2022-08-19
+Title Kanopy
+URL http://iuk.kanopy.com
+H https://iuk.kanopy.com
+HJ www.kanopy.com
+HJ https://www.kanopy.com
+HJ http://www.kanopy.com
+D kanopy.com
+
+# Updated per ralight 2023-10-16
+# Stanza modified from OCLC stanza
+Option Cookie
+Title Learning Express Library 3.0 - PrepStep for Colleges
+URL https://learningexpresslibrary3.com/?AuthToken=2df0be07-7488-499e-9b4f-ae3d2aab2262
+HJ http://learningexpresslibrary3.com
+HJ https://www.learningexpresshub.com/
+HJ https://www.learningexpresslibrary3.com
+HJ www.learningexpresslibrary3.com
+DJ learningexpresslibrary3.com
+DJ learningexpresshub.com
+
+# Updated per ralight 2023-03-02
+T Liebert (updated 20230223)
+U https://www.liebertpub.com
+HJ home.liebertpub.com
+HJ https://home.liebertpub.com
+HJ https://liebertonline.com
+HJ https://liebertpub.com
+HJ https://mal.scienceconnect.io
+HJ https://online.liebertpub.com
+HJ https://www.liebertonline.com
+HJ liebertonline.com
+HJ liebertpub.com
+HJ mal.scienceconnect.io
+HJ online.liebertpub.com
+HJ www.liebertonline.com
+HJ www.liebertpub.com
+DJ liebertpub.com
+
+T      Library Instruction Round Table news
+U      http://fleetwood.baylor.edu/lirt/lirtnews
+DJ     fleetwood.baylor.edu/lirt/lirtnews
+
+# Added per ralight 2023-07-14
+Title Loex Quarterly
+URL https://commons.emich.edu/loexquarterly/
+HJ http://commons.emich.edu
+HJ commons.emich.edu
+DJ emich.edu
+
+Title Mango Languages 
+URL https://connect.mangolanguages.com/iuk/start 
+HJ connect.mangolanguages.com 
+HJ https://libraries.mangolanguages.com 
+HJ libraries.mangolanguages.com 
+DJ mangolanguages.com
+
+# Updated per ralight 2022-07-07
+Title MathSciNet (updated 20220628)
+URL https://mathscinet.ams.org
+HJ http://www.ams.org/mathscinet
+HJ https://www.ams.org/mathscinet
+HJ https://www.ams.org/journals
+HJ http://www.ams.org/journals
+HJ https://www.ams.org/publications/ebooks/ebooks
+HJ http://www.ams.org/publications/ebooks/ebooks
+HJ mathscinet.ams.org
+HJ ams.org
+HJ https://ams.org
+DJ mathscinet.ams.org
+DJ ams.org
+
+T 	 MetaPress (journals) 
+URL 	 http://www.metapress.com
+DJ 	 metapress.com
+HJ 	 mesharpe.metapress.com
+HJ 	 taylorandfrancis.metapress.com
+HJ 	 utpjournals.metapress.com
+HJ 	 journalsonline.tandf.co.uk
+HJ	 nif.metapress.com
+
+# updated per CWL 06-21-2024
+Title Modern Language Association
+URL http://www.mla.org
+HJ mla.org
+HJ mlajournals.org
+HJ www.mla.org
+HJ www.mlajournals.org
+HJ https://mlajournals.org
+HJ https://www.mla.org
+HJ https://www.mlajournals.org
+HJ https://www.ade.mla.org
+HJ https://www.adfl.mla.org
+HJ https://mlahandbookplus.org
+DJ mla.org
+DJ mlajournals.org
+Find https:\/\/
+Replace https://
+
+Title MLA Literary Research Guide
+URL http://www.mlalrg.org/
+DJ mlalrg.org
+
+# Title  National Teaching & Learning Forum
+# URL    http://www.ntlf.com
+# DJ     ntlf.com
+
+Title Nature Publishing (updated 20211116)
+URL https://www.nature.com
+HJ ajandrology.com
+HJ labanimal.com
+HJ links.ealert.nature.com
+HJ nano.nature.com
+HJ nature.com
+HJ search.nature.com
+HJ www.ajandrology.com<http://www.ajandrology.com>
+HJ www.labanimal.com<http://www.labanimal.com>
+HJ www.nature.com<http://www.nature.com>
+HJ www.naturesj.com<http://www.naturesj.com>
+HJ www.npgjournals.com<http://www.npgjournals.com>
+HJ https://ajandrology.com
+HJ https://labanimal.com
+HJ https://links.ealert.nature.com
+HJ https://nano.nature.com
+HJ https://nature.com
+HJ https://search.nature.com
+HJ https://www.ajandrology.com
+HJ https://www.labanimal.com
+HJ https://www.naturesj.com
+HJ https://www.npgjournals.com
+HJ https://arabicedition.nature.com
+HJ arabicedition.nature.com
+DJ ajandrology.com
+DJ ensighten.com
+DJ labanimal.com
+DJ nature.com
+DJ natureasia.com
+DJ naturesj.com
+DJ nexus.ensighten.com
+DJ npgjournals.com
+Find nexus.ensighten.com
+Replace ^pnexus.ensighten.com^
+
+# New [per atthorpe] 4 February 2015 kw
+T NetLibrary
+URL http://www.netlibrary.com/
+HJ netlibrary.com
+DJ akamai.net
+DJ media.netlibrary.com
+DJ netlibrary.com
+H www.netlibrary.com
+
+# Updated per ralight 2022-07-07
+AnonymousURL +https://api-production.jwatch.org/*
+AnonymousURL +https://api-production.nejmgroup.org/*
+AnonymousURL +https://myaccount.nejm.org/api/*
+AnonymousURL +https://myaccount.nejm.org/session/*
+AnonymousURL +https://myaccount.nejm.org/mmssession/*
+AnonymousURL +https://api.nejmgroup.org/nejm-api/*
+AnonymousURL +https://examservice.nejm.org/ExamService/*
+AnonymousURL +https://cssjs.nejm.org/fonts/*
+Title NEJM Group (updated 20220628)
+HTTPHeader -request -process access-control-allow-origin
+HTTPHeader -request -process x-api-key
+HTTPHeader -request -process X-Requested-With
+URL https://www.nejm.org
+HJ catalyst.nejm.org
+HJ evidence.nejm.org
+HJ https://catalyst.nejm.org
+HJ https://evidence.nejm.org
+HJ https://knowledgeplus.nejm.org
+HJ https://libraryhub.nejm.org
+HJ https://myaccount.nejm.org
+HJ https://nejm.org
+HJ https://resident360.nejm.org
+HJ https://search.nejm.org
+HJ https://store.nejm.org
+HJ https://www.jwatch.org
+HJ https://www.nejmcareercenter.org
+HJ knowledgeplus.nejm.org
+HJ libraryhub.nejm.org
+HJ myaccount.nejm.org
+HJ nejm.org
+HJ resident360.nejm.org
+HJ search.nejm.org
+HJ store.nejm.org
+HJ www.jwatch.org
+HJ www.nejm.org
+HJ www.nejmcareercenter.org
+DJ jwatch.org
+DJ nejm.org
+DJ nejmcareercenter.org
+DJ nejmgroup.org
+Find "//examservice.nejm.org/
+Replace "//^sexamservice.nejm.org^/
+AnonymousURL -*
+
+Title  New York Review of Books
+URL    http://www.nybooks.com/archives
+DJ	 nybooks.com		
+
+Title Oxford Art Online (updated 20190410)
+URL https://www.oxfordartonline.com
+HJ https://oxfordartonline.com
+HJ www.oxfordartonline.com
+HJ oxfordartonline.com
+HJ https://groveart.com
+HJ groveart.com
+DJ groveart.com
+
+# Removed 10/10/16 PJM per atthorpe
+# DJ and HJ change [per atthorpe] 14 January 2015 kw
+#Title Oxford Encyclopedia of Social Work
+#URL http://socialwork.oxfordre.com
+#H socialwork.oxfordre.com
+#HJ oxfordre.com
+#DJ prototypes.filtro.us
+#DJ socialwork.oxfordre.com
+
+# Updated per ralight 2023-01-10
+AnonymousURL +https://oup.silverchair-cdn.com/
+Title Oxford Academic (formerly Oxford Journals) (updated 20230106)
+HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
+URL https://academic.oup.com/
+HJ https://academic.oup.com
+HJ https://global.oup.com
+HJ https://click.skem1.com
+HJ global.oup.com
+HJ academic.oup.com
+HJ click.skem1.com
+DJ oup.com
+DJ watermark.silverchair.com
+Find domain="//global.oup.com"
+Replace domain="//^sglobal.oup.com^"
+AnonymousURL -*
+NeverProxy oup3-idp.sams-sigma.com
+NeverProxy oup2-idp.sams-sigma.com
+NeverProxy oup-idp.sams-sigma.com
+
+Title Oxford Music Online (updated 20190410)
+URL https://www.oxfordmusiconline.com
+HJ https://oxfordmusiconline.com
+HJ www.oxfordmusiconline.com
+HJ oxfordmusiconline.com
+DJ oxfordmusiconline.com
+
+Title Oxford Reference (updated 20190410)
+URL https://www.oxfordreference.com
+HJ https://oxfordreference.com
+HJ oxfordreference.com
+HJ www.oxfordreference.com
+DJ oxfordreference.com
+
+Title Oxford Scholarship Online - OSO (updated 20190410)
+URL https://www.oxfordscholarship.com
+HJ https://oxfordscholarship.com
+HJ oxfordscholarship.com
+HJ www.oxfordscholarship.com
+DJ oxfordscholarship.com
+DJ oxfordscholarship.com
+
+Title Polling the Nations 
+URL http://www.orspub.com 
+Domain www.orspub.com
+Host http://www.orspub.com
+
+Title Portico
+URL http://www.portico.org
+HJ portico.org
+HJ www.portico.org
+HJ access.portico.org
+DJ portico.org
+
+Option DomainCookieOnly
+Title Project Muse
+URL http://muse.jhu.edu/
+HJ https://muse.jhu.edu
+DJ muse.jhu.edu
+HJ muse.uq.edu.au
+Option Cookie
+
+Title PsychiatryOnline (American Journal of Psychiatry) (updated 20171226)
+URL https://psychiatryonline.org
+HJ psychiatryonline.org
+HJ www.psychiatryonline.org
+HJ www.psychiatryonline.com
+HJ psychiatryonline.com
+HJ ajp.psychiatryonline.org
+HJ dsm.psychiatryonline.org
+HJ ps.psychiatryonline.org
+HJ neuro.psychiatryonline.org
+HJ psychnews.psychiatryonline.org
+HJ www.appi.org
+HJ https://www.psychiatryonline.org
+HJ https://www.psychiatryonline.com
+HJ https://psychiatryonline.com
+HJ https://ajp.psychiatryonline.org
+HJ https://dsm.psychiatryonline.org
+HJ https://ps.psychiatryonline.org
+HJ https://neuro.psychiatryonline.org
+HJ https://psychnews.psychiatryonline.org
+HJ https://www.appi.org
+DJ psychiatryonline.com
+DJ psychiatryonline.org
+DJ appi.org
+
+Title  Public Health Reports
+URL    http://www.publichealthreports.org
+Domain publichealthreports.org
+
+# Added per ralight 2023-07-10
+ProxyHostnameEdit www.ncbi.nlm.nih.gov$ www-ncbi-nlm-nih-gov
+ProxyHostnameEdit pubmed.ncbi.nlm.nih.gov$ pubmed-ncbi-nlm-nih-gov
+AnonymousURL http://www.ncbi.nlm.nih.gov/corehtml/query/static/pubmedsearch.xml*
+AnonymousURL http://pubmed.ncbi.nlm.nih.gov/corehtml/query/static/pubmedsearch.xml*
+Option CookiePassThrough
+Title PubMed (updated 20211130)
+URL https://pubmed.ncbi.nlm.nih.gov/
+HJ https://www.ncbi.nlm.nih.gov/
+HJ https://pub.ncbi.nlm.nih.gov/
+HJ https://blast.ncbi.nlm.nih.gov
+HJ https://druginfo.nlm.nih.gov
+HJ https://europepmc.org
+HJ https://eutils.ncbi.nlm.nih.gov
+HJ https://ncbi.nlm.nih.gov
+HJ https://pubchem.ncbi.nlm.nih.gov
+HJ https://www.pubmedcentral.nih.gov
+HJ ncbi.nlm.nih.gov
+HJ www.ncbi.nlm.nih.gov
+HJ pub.ncbi.nlm.nih.gov
+HJ pubmed.ncbi.nlm.nih.gov
+HJ www.pubmedcentral.nih.gov
+DJ nih.gov
+DJ static.pubmed.gov
+# dx.doi.org provides linking Nature, Springer, Wiley, and others
+DJ dx.doi.org
+# linkinghub.elsevier.com provides linking to Elsevier and ScienceDirect
+DJ linkinghub.elsevier.com
+DJ wkhealth.com
+Find &url=http://
+Replace &url=http://^A
+Find fref.fcgi?http://
+Replace fref.fcgi?http://^A
+Find 'https://' + window.location.hostname
+Replace 'https://^spubmed.ncbi.nlm.nih.gov^'
+Find 'https://' + window.location.host +
+Replace 'https://^spubmed.ncbi.nlm.nih.gov^' +
+Option Cookie
+AnonymousURL -*
+
+T      Reference & User Services Quarterly
+U      http://rusa.metapress.com/content/L74261
+DJ     rusa.metapress.com/content/L74261
+
+Title r2library.com
+URL https://www.r2library.com
+HOST www.r2library.com
+DJ r2library.com
+
+T Rheumatologist
+U http://www.the-rheumatologist.org/view/index.html
+H www.the-rheumatologist.org
+
+Title Salem Press
+URL https://online.salempress.com
+HJ online.salempress.com
+HJ www.salempress.com
+HJ www.history.salempress.com
+HJ history.salempress.com
+HJ www.literature.salempress.com
+HJ literature.salempress.com
+HJ www.science.salempress.com
+HJ science.salempress.com
+HJ www.health.salempress.com
+HJ health.salempress.com
+HJ salempress.com
+DJ salempress.com 
+HJ www.referenceshelf-online.com
+HJ referenceshelf-online.com
+DJ referenceshelf-online.com
+
+Title  Science.gov
+URL    http://www.science.gov/ 
+DJ     science.gov
+
+Title Science - AAAS (updated 20210831)
+URL https://www.sciencemag.org
+HJ aaas-prod.science.org
+HJ advances.sciencemag.org
+HJ classic.sciencemag.org
+HJ http://www.sciencemag.org
+HJ https://aaas-prod.science.org
+HJ https://advances.sciencemag.org
+HJ https://classic.sciencemag.org
+HJ https://immunology.sciencemag.org
+HJ https://news.sciencemag.org
+HJ https://robotics.sciencemag.org
+HJ https://sageke.sciencemag.org
+HJ https://science.org
+HJ https://science.sciencemag.org
+HJ https://sciencecareers.sciencemag.org
+HJ https://sciencemag.org
+HJ https://search.sciencemag.org
+HJ https://stke.sciencemag.org
+HJ https://stm.sciencemag.org
+HJ https://www.science.org
+HJ https://www.sciencemag.org
+HJ immunology.sciencemag.org
+HJ news.sciencemag.org
+HJ robotics.sciencemag.org
+HJ sageke.sciencemag.org
+HJ science.org
+HJ science.sciencemag.org
+HJ sciencecareers.sciencemag.org
+HJ sciencemag.org
+HJ search.sciencemag.org
+HJ stke.sciencemag.org
+HJ stm.sciencemag.org
+HJ www.science.org<http://www.science.org>
+HJ www.sciencemag.org<http://www.sciencemag.org>
+DJ aaas-prod.science.org
+DJ literatumonline.com
+DJ science.org
+DJ sciencemag.org 
+
+# Updated per ralight 2023-09-13
+# Elsevier ScienceDirect
+Cookie BROWSER_SUPPORTS_COOKIES=1;domain=.sciencedirect.com
+AnonymousURL +https://rss.sciencedirect.com/
+Title ScienceDirect (Updated 20230125)
+URL https://www.sciencedirect.com
+HJ https://www.sciencedirect.com
+HJ https://sciencedirect.com
+HJ http://www.sciencedirect.com
+HJ sciencedirect.com
+HJ linkinghub.elsevier.com
+HJ https://linkinghub.elsevier.com
+HJ www.elsevier.com
+HJ admintool.elsevier.com
+HJ https://admintool.elsevier.com
+HJ online.tableau.com
+HJ help-admintool.elsevier.com
+HJ tableau-admintool.elsevier.com
+# Extra hosts added to reduce needhost errors per ralight 2023-02-09
+HJ https://pdf.sciencedirectassets.com
+DJ sciencedirect.com
+DJ www.elsevier.com
+DJ *.els-cdn.com
+Find value="http://
+Replace value="http://^A
+Find %22%3A%22https%3A%2F%2Fsciverse-shindig.elsevier.com%2F
+Replace %22%3A%22https%3A%2F%2F^ssciverse-shindig.elsevier.com^%2F
+Find gsUrl%22%3A%22https%3A%2F%2Fwww.sciencedirect.com%2F
+Replace gsUrl%22%3A%22https%3A%2F%2F^swww.sciencedirect.com^%2F
+Find pdfurl%3D%22https%3A%2F%2Fwww.sciencedirect.com%2F
+Replace pdfurl%3D%22https%3A%2F%2F^swww.sciencedirect.com^%2F
+Find pdfurl="//www.sciencedirect.com/
+Replace pdfurl="//^swww.sciencedirect.com^/
+Find redirect_uri=https://
+Replace redirect_uri=https://^A
+Find "null/
+Replace "//^swww.sciencedirect.com^/
+AnonymousURL -*
+
+Title Scientific American (updated 20190531)
+URL https://www.scientificamerican.com/
+HJ http://www.scientificamerican.com/
+HJ https://www.sciam.com
+HJ http://www.sciam.com
+DJ sciam.com
+DJ scientificamerican.com
+
+# Updated per ralight 2023-09-13
+#Elsevier Scopus
+ProxyHostnameEdit www.scopus.com$ www-scopus-com
+HTTPMethod OPTIONS
+AnonymousURL +http://syndic8.scopus.com/*
+AnonymousURL +https://components.scopus.com/*
+AnonymousURL -OPTIONS +https://components.scopus.com/*
+Title Scopus (updated 20230911)
+MimeFilter text/uri-list .* javascript
+MimeFilter application/json .* javascript
+URL https://www.scopus.com/home.url
+HJ https://scopus.com
+HJ https://www.elsevier.com
+HJ https://www.scopus.com
+HJ https://www2.scopus.com
+HJ scopus.com
+HJ www.scopus.com
+HJ www2.scopus.com
+DJ www.elsevier.com
+DJ scopus.com
+Find gsUrl%22%3A%22https%3A%2F%2Fwww.scopus.com%2F
+Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
+Find ["APP_DOMAIN"] = "www.scopus.com";
+Replace ["APP_DOMAIN"] = "^swww.scopus.com^";
+Find redirect_uri=https://
+Replace redirect_uri=https://^A
+AnonymousURL -*
+
+Title -hide Elsevier Identity
+URL https://id.elsevier.com
+HJ https://id.elsevier.com
+HJ id.elsevier.com
+DJ id.elsevier.com
+Find redirect_uri=https://
+Replace redirect_uri=https://^A
+
+Title Serials Solutions
+NeverProxy http://te6uz4hk6z.search.serialssolutions.com
+NeverProxy https://te6uz4hk6z.search.serialssolutions.com
+
+# Added & modified per ralight 2022-08-26
+# Stanza added to improve IUCAT experience
+Title Skillport8i
+NeverProxy iu.skillport.com
+NeverProxy https://iu.skillport.com
+NeverProxy https://skillport.iu.edu
+
+T      Social Education
+U      http://ncss.metapress.com/openurl.asp?genre=journal&issn=0037-7724
+DJ     ncss.metapress.com
+
+Title  Sociological Focus
+URL    http://www.paradigmpublishers.com/journals/sf/socfocus%20subscribers%20portal.htm
+DJ     paradigmpublishers.com
+
+Title  SourceOECD
+URL    http://new.sourceoecd.org
+DJ     sourceoecd.org
+DJ     oecd.org
+HJ     new.sourceoecd.org
+HJ     dandini.sourceoecd.org
+DJ     oecdobserver.org
+
+Title  StatRef titles (Ovid - Med lib System-wide subsc)
+URL    http://online.statref.com/default.asp?grpalias=IndianaU
+DJ     online.statref.com 
+DJ     statref.com
+Host   host1.statref.com
+
+Title Swank Digital Campus (updated 20181025)
+URL https://digitalcampus.swankmp.net/
+H digitalcampus.swankmp.net
+D swankmp.net
+
+HTTPHeader Access-Token
+ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
+Title Taylor & Francis
+URL https://www.tandfonline.com
+HJ http://www.tandfonline.com
+HJ journalsonline.tandf.co.uk
+HJ afs.tandfonline.com
+HJ amstat.tandfonline.com
+HJ tandfonline.com
+HJ www.journalsonline.tandf.co.uk
+DJ tandfonline.com
+HJ tandfprod.literatumonline.com
+DJ literatumonline.com
+
+# Added per ralight 2022-03-21
+AnonymousURL +https://api.taylorandfrancis.com/*
+AnonymousURL +https://api.taylorfrancis.com/*
+AnonymousURL +https://events.taylorandfrancis.com/*
+AnonymousURL +https://secure.taylorandfrancis.com/*
+AnonymousURL +https://secure.taylorfrancis.com/*
+Title Taylor Francis eBooks (updated 20210702)
+HTTPHeader -request -process authtoken
+HTTPHeader -request -process Origin
+URL https://www.taylorfrancis.com
+HJ www.taylorfrancis.com
+HJ https://taylorfrancis.com
+HJ taylorfrancis.com
+HJ https://api.taylorandfrancis.com
+HJ api.taylorandfrancis.com
+HJ https://api.taylorfrancis.com
+HJ api.taylorfrancis.com
+HJ https://events.taylorandfrancis.com
+HJ events.taylorandfrancis.com
+HJ https://accounts.taylorfrancis.com
+HJ accounts.taylorfrancis.com
+HJ https://secure.taylorfrancis.com
+HJ secure.taylorfrancis.com
+HJ https://secure.taylorandfrancis.com
+HJ secure.taylorandfrancis.com
+DJ taylorandfrancis.com
+DJ taylorfrancis.com
+NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1.amazonaws.com
+Find http-equiv="Content-Security-Policy"
+Replace http-equiv="X-Content-Security-Policy"
+Find "url":"https:\/\/taylorfrancis.com\/
+Replace "url":"https:\/\/^staylorfrancis.com^\/
+NeverProxy api.google.com
+NeverProxy fonts.google.com
+NeverProxy googletagmanager.com
+AnonymousURL -*
+
+Title  TeachingBooks.net
+URL    http://www.teachingbooks.net
+DJ     teachingbooks.net
+
+
+Title The Times Literary Supplement
+URL -Form=post -RewriteHost tls http://tls.timesonline.co.uk/section/0,,25332,00.html?gavalidate
+FormVariable grid=46
+FormVariable dgrid=46
+FormVariable imageID=246611
+FormVariable gaun=iukuser
+FormVariable gapw=libjournal
+FormVariable gamode=login
+# No Domain because we don't actually want it to proxy, uses password authentication
+
+
+Title  Times Literary Supplement Historical Archive
+URL    http://infotrac.galegroup.com/itweb/iulib_kokomo?db=TLSH
+D      tlemea.com
+
+# Added per ralight 2023-05-18
+Title Topology Proceedings
+URL http://topology.nipissingu.ca/tp/
+HJ http://topology.nipissingu.ca
+HJ https://topology.nipissingu.ca
+HJ topology.nipissingu.ca
+DJ nipissingu.ca
+
+Title University of California Press
+URL http://www.ucpress.edu/journals.php
+HJ www.ucpress.edu
+HJ phr.ucpress.edu
+HJ www.ucpressjournals.com
+DJ ucpress.edu
+DJ ucpressjournals.com
+Find ucpress.edu\/
+Replace ^Pucpress.edu^\/
+
+# Updated per ralight 2022-08-15
+Option DomainCookieOnly
+T University of Chicago Press Journals (OCLC IncludeFile updated 20220810)
+U http://www.journals.uchicago.edu
+HJ artfl-project.uchicago.edu
+HJ cjtcs.cs.uchicago.edu
+HJ el.press.uchicago.edu
+HJ https://artfl-project.uchicago.edu
+HJ https://el.press.uchicago.edu
+HJ https://journals.uchicago.edu
+HJ https://www.journals.uchicago.edu
+HJ humanities.uchicago.edu
+HJ journals.uchicago.edu
+HJ letterpress.uchicago.edu
+HJ lib.uchicago.edu
+HJ press.uchicago.edu
+HJ www.journals.uchicago.edu
+HJ www.lib.uchicago.edu
+HJ www.press.uchicago.edu
+DJ uchicago.edu
+Option Cookie
+
+Title  University of Illinois Journals
+URL    http://ajp.press.uiuc.edu
+DJ     press.uiuc.edu
+HJ     jegp.press.uiuc.edu
+
+Title University Press Scholarship Online (updated 20211124)
+URL https://www.universitypressscholarship.com/
+HJ britishacademy.universitypressscholarship.com
+HJ cairo.universitypressscholarship.com
+HJ california.universitypressscholarship.com
+HJ chicago.universitypressscholarship.com
+HJ columbia.universitypressscholarship.com
+HJ cornell.universitypressscholarship.com
+HJ edinburgh.universitypressscholarship.com
+HJ florida.universitypressscholarship.com
+HJ fordham.universitypressscholarship.com
+HJ hawaii.universitypressscholarship.com
+HJ hongkong.universitypressscholarship.com
+HJ illinois.universitypressscholarship.com
+HJ kentucky.universitypressscholarship.com
+HJ liverpool.universitypressscholarship.com
+HJ manchester.universitypressscholarship.com
+HJ minnesota.universitypressscholarship.com
+HJ mississippi.universitypressscholarship.com
+HJ mitpress.universitypressscholarship.com
+HJ northcarolina.universitypressscholarship.com
+HJ nyu.universitypressscholarship.com
+HJ oxford.universitypressscholarship.com
+HJ policypress.universitypressscholarship.com
+HJ princeton.universitypressscholarship.com
+HJ stanford.universitypressscholarship.com
+HJ universitypressscholarship.com
+HJ yale.universitypressscholarship.com
+HJ www.britishacademy.universitypressscholarship.com
+HJ www.cairo.universitypressscholarship.com
+HJ www.california.universitypressscholarship.com
+HJ www.chicago.universitypressscholarship.com
+HJ www.columbia.universitypressscholarship.com
+HJ www.cornell.universitypressscholarship.com
+HJ www.edinburgh.universitypressscholarship.com
+HJ www.florida.universitypressscholarship.com
+HJ www.fordham.universitypressscholarship.com
+HJ www.hawaii.universitypressscholarship.com
+HJ www.hongkong.universitypressscholarship.com
+HJ www.illinois.universitypressscholarship.com
+HJ www.kentucky.universitypressscholarship.com
+HJ www.liverpool.universitypressscholarship.com
+HJ www.manchester.universitypressscholarship.com
+HJ www.minnesota.universitypressscholarship.com
+HJ www.mississippi.universitypressscholarship.com
+HJ www.mitpress.universitypressscholarship.com
+HJ www.northcarolina.universitypressscholarship.com
+HJ www.nyu.universitypressscholarship.com
+HJ www.oxford.universitypressscholarship.com
+HJ www.policypress.universitypressscholarship.com
+HJ www.princeton.universitypressscholarship.com
+HJ www.stanford.universitypressscholarship.com
+HJ www.universitypressscholarship.com
+HJ www.yale.universitypressscholarship.com
+HJ https://britishacademy.universitypressscholarship.com
+HJ https://cairo.universitypressscholarship.com
+HJ https://california.universitypressscholarship.com
+HJ https://chicago.universitypressscholarship.com
+HJ https://columbia.universitypressscholarship.com
+HJ https://cornell.universitypressscholarship.com
+HJ https://edinburgh.universitypressscholarship.com
+HJ https://florida.universitypressscholarship.com
+HJ https://fordham.universitypressscholarship.com
+HJ https://hawaii.universitypressscholarship.com
+HJ https://hongkong.universitypressscholarship.com
+HJ https://illinois.universitypressscholarship.com
+HJ https://kentucky.universitypressscholarship.com
+HJ https://liverpool.universitypressscholarship.com
+HJ https://manchester.universitypressscholarship.com
+HJ https://minnesota.universitypressscholarship.com
+HJ https://mississippi.universitypressscholarship.com
+HJ https://mitpress.universitypressscholarship.com
+HJ https://northcarolina.universitypressscholarship.com
+HJ https://nyu.universitypressscholarship.com
+HJ https://oxford.universitypressscholarship.com
+HJ https://policypress.universitypressscholarship.com
+HJ https://princeton.universitypressscholarship.com
+HJ https://stanford.universitypressscholarship.com
+HJ https://universitypressscholarship.com
+HJ https://yale.universitypressscholarship.com
+HJ https://www.britishacademy.universitypressscholarship.com
+HJ https://www.cairo.universitypressscholarship.com
+HJ https://www.california.universitypressscholarship.com
+HJ https://www.chicago.universitypressscholarship.com
+HJ https://www.columbia.universitypressscholarship.com
+HJ https://www.cornell.universitypressscholarship.com
+HJ https://www.edinburgh.universitypressscholarship.com
+HJ https://www.florida.universitypressscholarship.com
+HJ https://www.fordham.universitypressscholarship.com
+HJ https://www.hawaii.universitypressscholarship.com
+HJ https://www.hongkong.universitypressscholarship.com
+HJ https://www.illinois.universitypressscholarship.com
+HJ https://www.kentucky.universitypressscholarship.com
+HJ https://www.liverpool.universitypressscholarship.com
+HJ https://www.manchester.universitypressscholarship.com
+HJ https://www.minnesota.universitypressscholarship.com
+HJ https://www.mississippi.universitypressscholarship.com
+HJ https://www.mitpress.universitypressscholarship.com
+HJ https://www.northcarolina.universitypressscholarship.com
+HJ https://www.nyu.universitypressscholarship.com
+HJ https://www.oxford.universitypressscholarship.com
+HJ https://www.policypress.universitypressscholarship.com
+HJ https://www.princeton.universitypressscholarship.com
+HJ https://www.stanford.universitypressscholarship.com
+HJ https://www.universitypressscholarship.com
+HJ https://www.yale.universitypressscholarship.com
+HJ https://oxfordscholarship.com
+HJ https://www.oxfordscholarship.com
+HJ oxfordscholarship.com
+HJ www.oxfordscholarship.com
+DJ oxfordscholarship.com
+DJ universitypressscholarship.com
+
+T USMLE Easy
+U https://new.usmle-easy.com/institution
+H https://new.usmle-easy.com
+DJ usmle-easy.com
+DJ books.mcgraw-hill.com
+
+ProxyHostnameEdit www.google.com$ www-google-com 
+T Value Line 
+MimeFilter application/json .* javascript 
+U https://research.valueline.com/secure/research 
+HJ research.valueline.com 
+HJ www.valueline.com 
+HJ www3.valueline.com 
+HJ jump.valueline.com 
+HJ skip.valueline.com 
+HJ https://jump.valueline.com 
+DJ valueline.com 
+DJ www.google.com 
+DJ googleapis.com 
+Find name="RelayState" value="https:// 
+Replace name="RelayState" value="https://^A 
+Find name='RelayState' value='https:// 
+Replace name='RelayState' value='https://^A 
+Find 'http:\x2F\x2F 
+Replace 'http:// 
+Find "//www.google.com/ 
+Replace "https://www.google.com/ 
+Find googleSearchDomain = "www.google.com"; 
+Replace googleSearchDomain = "^pwww.google.com^"; 
+
+Title	Wiley Encyclopedia of Sociology Online
+URL	http://www.sociologyencyclopedia.com
+Domain	sociologyencyclopedia.com
+
+Title OCLC FirstSearch
+URL https://firstsearch.oclc.org/FSIP
+HJ http://firstsearch.oclc.org
+DJ oclc.org
+
+Title WorldCat Local (updated 20181128)
+URL https://iuk.worldcat.org
+HJ iuk.worldcat.org
+DJ worldcat.org
+
+Title Artstor
+HTTPHeader -request -process Accept-Encoding
+URL http://library.artstor.org
+DJ artstor.org
+HJ mdxdv.artstor.org 
+HJ library.artstor.org
+HJ https://library.artstor.org
+HJ proxy.library.artstor.org
+NeverProxy viewer.artstor.org
+NeverProxy viewer2.artstor.org
+
+
+Title USMLE easy
+URL https://new.usmle-easy.com/institution
+URL https://new.usmle-easy.com/institution?encInsId=NDUzMjQyMzAx
+DJ s3.amazonaws.com
+DJ usmle-Easy.com
+DJ paeasy.com
+DJ mheducation.com
+
+Title Frontier Life
+URL http://www.frontierlife.amdigital.co.uk
+
+Title Foreign Office Files for the Middle East
+URL http://www.archivesdirect.amdigital.co.ukFO_MiddleEast
+
+Title Eighteenth Century Drama
+URL http://www.eighteenthcenturydrama.amdigital.co.uk
+
+Title World's Fairs
+URL http://www.worldsfairs.amdigital.co.uk
+
+Title Shakespeare in Performance
+URL http://www.shakespeareinperformance.amdigital.co.uk
+
+Title History of Mass Tourism
+URL http://www.masstourism.amdigital.co.uk
+
+Title Church Missionary Society Periodicals Module II
+URL http://www.churchmissionarysociety.amdigital.co.uk
+
+Title Colonial America Module II
+URL http://www.colonialamerica.amdigital.co.uk
+
+Title Encyclopedia of Life Sciences
+U http://www.els.net
+DJ els.net
+
+Title Open Textbook Library
+URL https://open.umn.edu/opentextbooks
+Host  https://open.umn.edu
+
+Title UpToDate
+URL http://www.uptodate.com
+HJ https://www.uptodate.com
+HJ https://www.uptodateonline.com
+HJ uptodate.com
+HJ uptodateonline.com
+HJ utdol.com
+HJ www.uptodate.com
+HJ www.uptodateonline.com
+HJ www.utdol.com
+DJ uptodate.com
+
+Title Activate NY Times Access
+URL https://ezmyaccount.nytimes.com/grouppass
+D ezmyaccount.nytimes.com
+H ezmyaccount.nytimes.com
+
+T Foundation Directory Online 
+U https://fconline.foundationcenter.org/ipl.php 
+HJ fconline.foundationcenter.org 
+HJ fconline.fdncenter.org 
+DJ foundationcenter.org 
+NeverProxy 990s.foundationcenter.org 
+NeverProxy https://990.foundationcenter.org
+
+Title Mometrix eLibrary Test Preparation
+U https://portal.mometrixelibrary.com/?__acct=397
+
+Title Credo Education
+URL https://frame.credocourseware.com 
+DJ *.credocourseware.com
+HJ frame.credocourseware.com
+
+AnonymousURL +https://api.wileydigitalarchives.com/* 
+Title Wiley Digital Archives
+URL https://app.wileydigitalarchives.com/
+HJ https://app.wileydigitalarchives.com
+HJ https://api.wileydigitalarchives.com
+NeverProxy content.wileydigitalarchives.com
+NeverProxy ajax.googleapis.com
+NeverProxy cdnjs.cloudflare.com
+NeverProxy fonts.googleapis.com
+NeverProxy fonts.gstatic.com
+NeverProxy js.zapjs.com
+NeverProxy maxcdn.bootstrapcdn.com
+AnonymousURL -*
+
+Title Oxford Bibliographies (updated 20200120)
+URL https://www.oxfordbibliographies.com
+HJ https://oxfordbibliographies.com
+HJ www.oxfordbibliographies.com
+HJ oxfordbibliographies.com
+HJ oxfordbibliographiesonline.com
+HJ www.oxfordbibliographiesonline.com
+DJ oxfordbibliographies.com
+
+# Updated per ralight 2022-09-16
+Option X-Forwarded-For
+Option DomainCookieOnly
+AnonymousURL +http://staticieeexplore.ieee.org/*
+AnonymousURL +https://staticieeexplore.ieee.org/*
+Title IEEE Xplore (OCLC IncludeFile updated 20220909)
+HTTPHeader -response -block Content-Security-Policy
+URL https://ieeexplore.ieee.org/
+HJ https://innovate.ieee.org
+HJ https://m.ieeexplore.ieee.org
+HJ https://search.ieeexplore.ieee.org
+HJ https://www.ieee.org
+HJ https://www.ieeexplore.ieee.org
+HJ https://www.innovate.ieee.org
+HJ https://xplorestaging.ieee.org
+HJ ieeexplore.ieee.org
+HJ innovate.ieee.org
+HJ m.ieeexplore.ieee.org
+HJ search.ieeexplore.ieee.org
+HJ www.ieee.org
+HJ www.ieeexplore.ieee.org
+HJ www.innovate.ieee.org
+HJ xplorestaging.ieee.org
+DJ ieee.org
+AnonymousURL -*
+Option Cookie
+Option NoX-Forwarded-For
+NeverProxy iln.ieee.org
+NeverProxy ea.iln.ieee.org
+NeverProxy www.ieee.org
+
+# Updated per ralight 2022-02-04
+AnonymousURL +https://ibaseptn.infobase.com/graphql
+Title Infobase (updated 20220128)
+URL https://login.infobase.com
+HJ login.infobase.com
+HJ https://online.infobaselearning.com
+HJ online.infobaselearning.com
+HJ https://www.infobase.com
+HJ www.infobase.com
+HJ https://ebooks.infobase.com
+HJ ebooks.infobase.com
+HJ ebooks.infobaselearning.com
+HJ online.infobase.com
+HJ https://www.infobasepublishing.com
+HJ www.infobasepublishing.com
+HJ infobasepublishing.com
+HJ https://video.infobase.com
+HJ video.infobase.com
+HJ https://learn360.infobase.com
+HJ https://www.learn360.infobase.com
+HJ https://online.infobase.com
+HJ https://icof.infobaselearning.com
+HJ learn360.infobase.com
+HJ www.learn360.infobase.com
+HJ bio.infobaselearning.com
+HJ wak.infobaselearning.com
+HJ icah.infobaselearning.com
+HJ icof.infobaselearning.com
+HJ tsof.infobaselearning.com
+HJ fcg.infobase.com
+HJ wake.infobase.com
+HJ wnd.infobase.com
+HJ online.factsonfile.com
+HJ www.factsonfile.com
+HJ factsonfile.com
+HJ wao.factsonfile.com
+HJ www.fofweb.com
+HJ fofweb.com
+HJ fofweb.infobase.com
+DJ infobaselearning.com
+DJ infobasepublishing.com
+DJ infobase.com
+NeverProxy ptn.infobase.com
+NeverProxy tsof.infobase.com
+AnonymousURL -*
+
+T ABC-CLIO Databases and Ebooks
+U http://databases.abc-clio.com
+U https://databases.abc-clio.com
+U http://americangovernment2.abc-clio.com
+U http://americanhistory2.abc-clio.com
+U http://issues2.abc-clio.com
+U http://worldatwar2.abc-clio.com
+U http://worldgeography2.abc-clio.com
+U http://ancienthistory2.abc-clio.com
+U http://worldhistory2.abc-clio.com
+U http://popculture2.abc-clio.com
+U http://dailylife2.abc-clio.com
+U http://africanamerican2.abc-clio.com
+U http://latinoamerican2.abc-clio.com
+U http://americanindian2.abc-clio.com
+U http://religion2.abc-clio.com
+U http://moderngenocide.abc-clio.com
+U http://psi.praeger.com
+U http://ebooks.abc-clio.com
+U http://publisher.abc-clio.com
+U http://folklore.greenwood.com
+U http://arba.librariesunlimited.com
+U https://americangovernment2.abc-clio.com
+U https://americanhistory2.abc-clio.com
+U https://issues2.abc-clio.com
+U https://worldatwar2.abc-clio.com
+U https://worldgeography2.abc-clio.com
+U https://ancienthistory2.abc-clio.com
+U https://worldhistory2.abc-clio.com
+U https://popculture2.abc-clio.com
+U https://dailylife2.abc-clio.com
+U https://africanamerican2.abc-clio.com
+U https://latinoamerican2.abc-clio.com
+U https://americanindian2.abc-clio.com
+U https://religion2.abc-clio.com
+U https://moderngenocide.abc-clio.com
+U https://psi.praeger.com
+U https://ebooks.abc-clio.com
+U https://publisher.abc-clio.com
+U https://folklore.greenwood.com
+U https://arba.librariesunlimited.com
+DJ abc-clio.com
+DJ greenwood.com
+DJ librariesunlimited.com
+DJ metrics.abc-clio.com
+H databases.abc-clio.com
+H americangovernment2.abc-clio.com
+H americanhistory2.abc-clio.com
+H issues2.abc-clio.com
+H worldatwar2.abc-clio.com
+H worldgeography2.abc-clio.com
+H ancienthistory2.abc-clio.com
+H worldhistory2.abc-clio.com
+H popculture2.abc-clio.com
+H dailylife2.abc-clio.com
+H africanamerican2.abc-clio.com
+H latinoamerican2.abc-clio.com
+H americanindian2.abc-clio.com
+H religion2.abc-clio.com
+H moderngenocide.abc-clio.com
+H readersadvisoronline.com
+H psi.praeger.com
+H authors4teens.com
+H ebooks.abc-clio.com
+H publisher.abc-clio.com
+H folklore.greenwood.com
+H arba.librariesunlimited.com
+
+Title Ancestry Library
+URL https://ancestrylibrary.proquest.com
+HJ https://ancestrylibrary.proquest.com
+DJ ancestrylibrary.proquest.com
+NeverProxy www.ancestrylibrary.com
+
+Title GEOPlugin 
+URL https://ssl.geoplugin.net
+Host https://ssl.geoplugin.net
+HJ ssl.geoplugin.net
+DJ geoplugin.net
+
+Title Bloomsbury Applied Visual Arts (updated 20190502)
+URL https://www.bloomsburyappliedvisualarts.com/
+HJ www.bloomsburyappliedvisualarts.com
+HJ bloomsburyappliedvisualarts.com
+HJ https://www.bloomsburyappliedvisualarts.com
+HJ https://bloomsburyappliedvisualarts.com
+DJ bloomsburyappliedvisualarts.com
+
+Title Bloomsbury Encyclopedia of Philosophers 
+URL https://www.bloomsburyphilosophers.com
+HJ www.bloomsburyphilosophers.com
+HJ bloomsburyphilosophers.com
+HJ https://www.bloomsburyphilosophers.com
+HJ https://bloomsburyphilosophers.com
+DJ bloomsburyphilosophers.com
+
+Option X-Forwarded-For
+T ACM Digital Library
+U https://dl.acm.org
+H http://dl.acm.org
+HJ https://dl.acm.org
+H http://acm.org
+H https://acm.org
+H http://acmtecs.acm.org
+HJ https://acmtecs.acm.org
+HJ http://books.acm.org
+H http://cacm.acm.org
+HJ https://cacm.acm.org
+H http://campus.acm.org
+HJ https://csur.acm.org/
+# defunct... ?
+H http://www.jea.acm.org
+H http://xrds.acm.org
+HJ https://xrds.acm.org
+DJ acm.org
+# for cover images 2018-06-12
+NeverProxy portalparts.acm.org
+Option NoX-Forwarded-For
+
+Title Ulrichsweb
+URL https://ulrichsweb.serialssolutions.com/
+HJ ulrichsweb.serialssolutions.com
+HJ https://ulrichsweb.serialssolutions.com
+HJ www.ulrichsweb.serialssolutions.com
+DJ serialssolutions.com
+HJ ulrichsweb.serialssolutions.com
+HJ www.ulrichsweb.serialssolutions.com
+HJ https://clientcenter.serialssolutions.com
+HJ clientcenter.serialssolutions.com
+HJ www.serialssolutions.com
+HJ serialssolutions.com
+DJ serialssolutions.com
+HJ www.ulrichsweb.com
+HJ ulrichsweb.com
+DJ ulrichsweb.com
+
+# Updated per ralight 2023-01-10
+Title CQ Researcher  (updated 20230106)
+URL http://library.cqpress.com/cqresearcher/
+HJ library.cqpress.com
+# Additional https HJ added, not included in OCLC stanza
+HJ https://library.cqpress.com
+DJ library.cqpress.com
+DJ cqpress.com
+Find &url=http://
+Replace &url=http://^A
+Find &url=https://
+Replace &url=https://^A
+
+T Richard K. Miller & Associates
+U http://www.rkma.com
+HJ www.rkma.com
+HJ rkma.com
+DJ rkma.com
+
+Title Routledge Handbooks Online (updated 20160714)
+URL https://www.routledgehandbooks.com/
+HJ routledgehandbooks.com
+HJ www.routledgehandbooks.com
+DJ routledgehandbooks.com
+
+# Added per ralight 2023-11-16
+Option NoX-Forwarded-For 
+Title Teaching Channel 
+URL https://platform.teachingchannel.com/TeachingChannel 
+Option X-Forwarded-For
