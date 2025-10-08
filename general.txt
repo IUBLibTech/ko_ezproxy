@@ -589,9 +589,9 @@ NeverProxy https://dq8wtqudsgu83.cloudfront.net
 NeverProxy d3crmev290s45i.cloudfront.net
 NeverProxy media.proquest.com
 
-# Added per ralight 2022-11-07
+# Updated per ralight 2025-10-08
 # Stanza for non-subscribed/free resource added to reduce needhost errors
-Title American Academy of Pediatrics (updated 20220609)
+Title American Academy of Pediatrics (20251001)
 URL https://publications.aap.org
 HJ https://publications.aap.org
 HJ https://publications.aap.org/aapgrandrounds/
@@ -624,6 +624,7 @@ HJ https://pediatriccareonline.org
 HJ https://aap.org
 HJ https://aapebooks.org
 HJ https://aappublications.org
+HJ https://pediatrics.aappublications.org
 DJ publications.aap.org
 DJ coding.aap.org
 DJ aapgrandrounds.org
