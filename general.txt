@@ -1061,19 +1061,6 @@ HJ choice360.org
 DJ choicereviews.org
 DJ choice360.org
 
-Title The Chronicle of Higher Education
-MimeFilter application/json .* javascript
-URL https://www.chronicle.com
-HJ http://chronicle.com
-HJ http://www.chronicle.com
-NeverProxy thechronicleofhighereducation.disqus.com
-NeverProxy disqus.com
-NeverProxy mediacdn.disqus.com
-DJ chronicle.com
-HJ chronicle.com
-HJ www.chronicle.com
-Find http:\/\/
-Replace http://
 
 Title   Clinical Evidence
 URL    http://www.clinicalevidence.com
