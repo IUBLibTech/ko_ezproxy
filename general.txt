@@ -1448,6 +1448,12 @@ HJ www2.ejbjs.org
 DJ jbjs.org
 DJ ejbjs.org
 
+# Added per ralight 2024-11-12
+# Added for improved IUCAT display
+Title Kaltura
+NeverProxy https://iu.mediaspace.kaltura.com
+NeverProxy iu.mediaspace.kaltura.com
+
 # Added per ralight 2022-08-19
 # Kanopy Videostreaming stanza should be listed before Kanopy stanza
 T Kanopy Videostreaming
