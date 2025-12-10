@@ -1069,14 +1069,6 @@ T      College & Research Libraries News
 U      http://crln.acrl.org/content
 DJ     crln.acrl.org/content
 
-T 	 CQ Databases
-URL	 http://www.cqpress.com
-HJ     library2.cqpress.com
-HJ 	 library.cqpress.com
-DJ 	 cqpress.com
-DJ 	 cq.com
-HJ 	 library.cq.com
-
 Option Cookie
 Title Credo Reference
 URL https://search.credoreference.com
@@ -2383,19 +2375,6 @@ DJ serialssolutions.com
 HJ www.ulrichsweb.com
 HJ ulrichsweb.com
 DJ ulrichsweb.com
-
-# Updated per ralight 2023-01-10
-Title CQ Researcher  (updated 20230106)
-URL http://library.cqpress.com/cqresearcher/
-HJ library.cqpress.com
-# Additional https HJ added, not included in OCLC stanza
-HJ https://library.cqpress.com
-DJ library.cqpress.com
-DJ cqpress.com
-Find &url=http://
-Replace &url=http://^A
-Find &url=https://
-Replace &url=https://^A
 
 T Richard K. Miller & Associates
 U http://www.rkma.com
