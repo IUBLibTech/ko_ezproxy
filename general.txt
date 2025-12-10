@@ -760,12 +760,6 @@ OPTION DOMAINCOOKIEONLY
 DJ     blackwell-synergy.com
 OPTION COOKIE
 
-Title  Bloom's Literary Reference Online
-URL    http://online.infobaselearning.com/Direct.aspx?aid=102977&pid=WE54
-DJ     fofweb.com
-D      infobaselearning.com
-H	online.infobaselearning.com
-
 # Updated per ralight 2023-11-01
 Option CookiePassThrough
 Title BMJ (Updated 20231020)
@@ -2298,52 +2292,6 @@ Option NoX-Forwarded-For
 NeverProxy iln.ieee.org
 NeverProxy ea.iln.ieee.org
 NeverProxy www.ieee.org
-
-# Updated per ralight 2022-02-04
-AnonymousURL +https://ibaseptn.infobase.com/graphql
-Title Infobase (updated 20220128)
-URL https://login.infobase.com
-HJ login.infobase.com
-HJ https://online.infobaselearning.com
-HJ online.infobaselearning.com
-HJ https://www.infobase.com
-HJ www.infobase.com
-HJ https://ebooks.infobase.com
-HJ ebooks.infobase.com
-HJ ebooks.infobaselearning.com
-HJ online.infobase.com
-HJ https://www.infobasepublishing.com
-HJ www.infobasepublishing.com
-HJ infobasepublishing.com
-HJ https://video.infobase.com
-HJ video.infobase.com
-HJ https://learn360.infobase.com
-HJ https://www.learn360.infobase.com
-HJ https://online.infobase.com
-HJ https://icof.infobaselearning.com
-HJ learn360.infobase.com
-HJ www.learn360.infobase.com
-HJ bio.infobaselearning.com
-HJ wak.infobaselearning.com
-HJ icah.infobaselearning.com
-HJ icof.infobaselearning.com
-HJ tsof.infobaselearning.com
-HJ fcg.infobase.com
-HJ wake.infobase.com
-HJ wnd.infobase.com
-HJ online.factsonfile.com
-HJ www.factsonfile.com
-HJ factsonfile.com
-HJ wao.factsonfile.com
-HJ www.fofweb.com
-HJ fofweb.com
-HJ fofweb.infobase.com
-DJ infobaselearning.com
-DJ infobasepublishing.com
-DJ infobase.com
-NeverProxy ptn.infobase.com
-NeverProxy tsof.infobase.com
-AnonymousURL -*
 
 T ABC-CLIO Databases and Ebooks
 U http://databases.abc-clio.com
