@@ -508,8 +508,9 @@ HJ https://files.eric.ed.gov
 HJ files.eric.ed.gov
 DJ eric.ed.gov
 
-# Updated per cwlamb 2023-03-29
-HTTPHeader Access-Token
+# Updated per ralight 2026-01-09
+# HTTPheader localized
+HTTPHeader -request -process Access-Token
 Title Europa World Plus
 URL https://www.europaworld.com/
 HJ http://www.europaworld.com
@@ -1108,9 +1109,10 @@ URL https://digitalcampus.swankmp.net/
 H digitalcampus.swankmp.net
 D swankmp.net
 
-HTTPHeader Access-Token
+Updated per ralight 2026-01-09
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis
+Title Taylor & Francis (updated 20190318)
+HTTPHeader -request -process Access-Token
 URL https://www.tandfonline.com
 HJ http://www.tandfonline.com
 HJ journalsonline.tandf.co.uk
@@ -1120,6 +1122,7 @@ HJ tandfonline.com
 HJ www.journalsonline.tandf.co.uk
 DJ tandfonline.com
 HJ tandfprod.literatumonline.com
+HJ https://tandfonline.com
 DJ literatumonline.com
 
 # Added per ralight 2022-03-21
