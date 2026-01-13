@@ -1152,7 +1152,7 @@ HJ https://secure.taylorandfrancis.com
 HJ secure.taylorandfrancis.com
 DJ taylorandfrancis.com
 DJ taylorfrancis.com
-NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1.amazonaws.com
+NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1..com
 Find http-equiv="Content-Security-Policy"
 Replace http-equiv="X-Content-Security-Policy"
 Find "url":"https:\/\/taylorfrancis.com\/
@@ -1395,14 +1395,6 @@ HJ proxy.library.artstor.org
 NeverProxy viewer.artstor.org
 NeverProxy viewer2.artstor.org
 
-
-Title USMLE easy
-URL https://new.usmle-easy.com/institution
-URL https://new.usmle-easy.com/institution?encInsId=NDUzMjQyMzAx
-DJ s3.amazonaws.com
-DJ usmle-Easy.com
-DJ paeasy.com
-DJ mheducation.com
 
 Title Frontier Life
 URL http://www.frontierlife.amdigital.co.uk
