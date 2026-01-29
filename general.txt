@@ -530,12 +530,6 @@ Domain ncco.galegroup.com
 Host gdc.galegroup.com
 host ncco.galegroup.com 
 
-Title GEOPlugin (updated 20200331)
-URL https://ssl.geoplugin.net
-Host https://ssl.geoplugin.net
-HJ ssl.geoplugin.net
-DJ geoplugin.net
-
 # Updated per ralight 2022-10-14
 Title Google Scholar (Updated 20221007)
 URL http://scholar.google.com
@@ -1543,13 +1537,6 @@ Host https://ssl.geoplugin.net
 HJ ssl.geoplugin.net
 DJ geoplugin.net
 
-Title Bloomsbury Applied Visual Arts (updated 20190502)
-URL https://www.bloomsburyappliedvisualarts.com/
-HJ www.bloomsburyappliedvisualarts.com
-HJ bloomsburyappliedvisualarts.com
-HJ https://www.bloomsburyappliedvisualarts.com
-HJ https://bloomsburyappliedvisualarts.com
-DJ bloomsburyappliedvisualarts.com
 
 Title Bloomsbury Encyclopedia of Philosophers 
 URL https://www.bloomsburyphilosophers.com
