@@ -228,12 +228,6 @@ HJ http://bioone.org
 HJ www.bioone.org
 DJ bioone.org
 
-Title  Blackwell-Synergy
-URL    http://www.blackwell-synergy.com
-OPTION DOMAINCOOKIEONLY
-DJ     blackwell-synergy.com
-OPTION COOKIE
-
 # changed per Spencer and Kirsten's emails to use tokens
 # this is now near the top of the config file
 #Title Books 24X7
