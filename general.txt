@@ -1426,36 +1426,7 @@ NeverProxy oup-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup3-idp.sams-sigma.com
 
-# Updated per ralight 2022-09-16
-Option X-Forwarded-For
-Option DomainCookieOnly
-AnonymousURL +http://staticieeexplore.ieee.org/*
-AnonymousURL +https://staticieeexplore.ieee.org/*
-Title IEEE Xplore (OCLC IncludeFile updated 20220909)
-HTTPHeader -response -block Content-Security-Policy
-URL https://ieeexplore.ieee.org/
-HJ https://innovate.ieee.org
-HJ https://m.ieeexplore.ieee.org
-HJ https://search.ieeexplore.ieee.org
-HJ https://www.ieee.org
-HJ https://www.ieeexplore.ieee.org
-HJ https://www.innovate.ieee.org
-HJ https://xplorestaging.ieee.org
-HJ ieeexplore.ieee.org
-HJ innovate.ieee.org
-HJ m.ieeexplore.ieee.org
-HJ search.ieeexplore.ieee.org
-HJ www.ieee.org
-HJ www.ieeexplore.ieee.org
-HJ www.innovate.ieee.org
-HJ xplorestaging.ieee.org
-DJ ieee.org
-AnonymousURL -*
-Option Cookie
-Option NoX-Forwarded-For
-NeverProxy iln.ieee.org
-NeverProxy ea.iln.ieee.org
-NeverProxy www.ieee.org
+## IEEE Xplore moved to common stanza
 
 T ABC-CLIO Databases and Ebooks
 U http://databases.abc-clio.com
