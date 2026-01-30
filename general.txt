@@ -1517,28 +1517,7 @@ HJ https://www.bloomsburyphilosophers.com
 HJ https://bloomsburyphilosophers.com
 DJ bloomsburyphilosophers.com
 
-Option X-Forwarded-For
-T ACM Digital Library
-U https://dl.acm.org
-H http://dl.acm.org
-HJ https://dl.acm.org
-H http://acm.org
-H https://acm.org
-H http://acmtecs.acm.org
-HJ https://acmtecs.acm.org
-HJ http://books.acm.org
-H http://cacm.acm.org
-HJ https://cacm.acm.org
-H http://campus.acm.org
-HJ https://csur.acm.org/
-# defunct... ?
-H http://www.jea.acm.org
-H http://xrds.acm.org
-HJ https://xrds.acm.org
-DJ acm.org
-# for cover images 2018-06-12
-NeverProxy portalparts.acm.org
-Option NoX-Forwarded-For
+# ACM Digital Library moved to common stanza: acmdigital.txt
 
 Title Ulrichsweb
 URL https://ulrichsweb.serialssolutions.com/
