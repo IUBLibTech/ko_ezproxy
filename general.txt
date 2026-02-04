@@ -406,10 +406,7 @@ HJ     ebooks.dustbooks.com
 DJ     dustbooks.com
 
 
-Title  dx.doi.org
-URL    http://dx.doi.org
-DJ     dx.doi.org
-DJ     doi.org
+# DOI system moved to common stanza
 
 
 # Updated per ralight 2022-07-07
