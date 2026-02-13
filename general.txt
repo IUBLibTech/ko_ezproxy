@@ -1412,21 +1412,6 @@ HJ https://ancestrylibrary.proquest.com
 DJ ancestrylibrary.proquest.com
 NeverProxy www.ancestrylibrary.com
 
-Title GEOPlugin 
-URL https://ssl.geoplugin.net
-Host https://ssl.geoplugin.net
-HJ ssl.geoplugin.net
-DJ geoplugin.net
-
-
-Title Bloomsbury Encyclopedia of Philosophers 
-URL https://www.bloomsburyphilosophers.com
-HJ www.bloomsburyphilosophers.com
-HJ bloomsburyphilosophers.com
-HJ https://www.bloomsburyphilosophers.com
-HJ https://bloomsburyphilosophers.com
-DJ bloomsburyphilosophers.com
-
 # ACM Digital Library moved to common stanza: acmdigital.txt
 
 Title Ulrichsweb
