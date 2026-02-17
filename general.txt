@@ -446,9 +446,7 @@ Title  Encyclopedia of Reagents for Organic Synthesis (e- EROS)
 URL http://www.mrw.interscience.wiley.com/eros/main.htm
 #DJ wiley.com
 
-Title Ent Today
-U http://www.enttoday.org
-H www.enttoday.org
+# Ent Today moved to common stanza
 
 Title  ERIC Clearinghouse
 URL    http://www.eduref.org/Eric
