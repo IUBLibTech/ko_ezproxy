@@ -1338,73 +1338,7 @@ NeverProxy oup3-idp.sams-sigma.com
 
 ## IEEE Xplore moved to common stanza
 
-T ABC-CLIO Databases and Ebooks
-U http://databases.abc-clio.com
-U https://databases.abc-clio.com
-U http://americangovernment2.abc-clio.com
-U http://americanhistory2.abc-clio.com
-U http://issues2.abc-clio.com
-U http://worldatwar2.abc-clio.com
-U http://worldgeography2.abc-clio.com
-U http://ancienthistory2.abc-clio.com
-U http://worldhistory2.abc-clio.com
-U http://popculture2.abc-clio.com
-U http://dailylife2.abc-clio.com
-U http://africanamerican2.abc-clio.com
-U http://latinoamerican2.abc-clio.com
-U http://americanindian2.abc-clio.com
-U http://religion2.abc-clio.com
-U http://moderngenocide.abc-clio.com
-U http://psi.praeger.com
-U http://ebooks.abc-clio.com
-U http://publisher.abc-clio.com
-U http://folklore.greenwood.com
-U http://arba.librariesunlimited.com
-U https://americangovernment2.abc-clio.com
-U https://americanhistory2.abc-clio.com
-U https://issues2.abc-clio.com
-U https://worldatwar2.abc-clio.com
-U https://worldgeography2.abc-clio.com
-U https://ancienthistory2.abc-clio.com
-U https://worldhistory2.abc-clio.com
-U https://popculture2.abc-clio.com
-U https://dailylife2.abc-clio.com
-U https://africanamerican2.abc-clio.com
-U https://latinoamerican2.abc-clio.com
-U https://americanindian2.abc-clio.com
-U https://religion2.abc-clio.com
-U https://moderngenocide.abc-clio.com
-U https://psi.praeger.com
-U https://ebooks.abc-clio.com
-U https://publisher.abc-clio.com
-U https://folklore.greenwood.com
-U https://arba.librariesunlimited.com
-DJ abc-clio.com
-DJ greenwood.com
-DJ librariesunlimited.com
-DJ metrics.abc-clio.com
-H databases.abc-clio.com
-H americangovernment2.abc-clio.com
-H americanhistory2.abc-clio.com
-H issues2.abc-clio.com
-H worldatwar2.abc-clio.com
-H worldgeography2.abc-clio.com
-H ancienthistory2.abc-clio.com
-H worldhistory2.abc-clio.com
-H popculture2.abc-clio.com
-H dailylife2.abc-clio.com
-H africanamerican2.abc-clio.com
-H latinoamerican2.abc-clio.com
-H americanindian2.abc-clio.com
-H religion2.abc-clio.com
-H moderngenocide.abc-clio.com
-H readersadvisoronline.com
-H psi.praeger.com
-H authors4teens.com
-H ebooks.abc-clio.com
-H publisher.abc-clio.com
-H folklore.greenwood.com
-H arba.librariesunlimited.com
+# ABC-CLIO Databases and Ebooks moved to common_stanza
 
 Title Ancestry Library
 URL https://ancestrylibrary.proquest.com
