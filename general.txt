@@ -1137,10 +1137,7 @@ Title	Wiley Encyclopedia of Sociology Online
 URL	http://www.sociologyencyclopedia.com
 Domain	sociologyencyclopedia.com
 
-Title OCLC FirstSearch
-URL https://firstsearch.oclc.org/FSIP
-HJ http://firstsearch.oclc.org
-DJ oclc.org
+# OCLC FirstSearch moved to common_stanza
 
 Title WorldCat Local (updated 20181128)
 URL https://iuk.worldcat.org
