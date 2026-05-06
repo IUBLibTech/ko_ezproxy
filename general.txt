@@ -774,7 +774,7 @@ URL https://digitalcampus.swankmp.net/
 H digitalcampus.swankmp.net
 D swankmp.net
 
-Updated per ralight 2026-01-09
+# Updated per ralight 2026-01-09
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
 Title Taylor & Francis (updated 20190318)
 HTTPHeader -request -process Access-Token
