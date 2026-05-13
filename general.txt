@@ -241,6 +241,7 @@ HJ choice360.org
 DJ choicereviews.org
 DJ choice360.org
 
+# CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
 Title   Clinical Evidence
 URL    http://www.clinicalevidence.com
@@ -667,13 +668,7 @@ Title  Science.gov
 URL    http://www.science.gov/ 
 DJ     science.gov
 
-Title Scientific American (updated 20190531)
-URL https://www.scientificamerican.com/
-HJ http://www.scientificamerican.com/
-HJ https://www.sciam.com
-HJ http://www.sciam.com
-DJ sciam.com
-DJ scientificamerican.com
+# Scientific American moved to common stanza: scientific-american.txt
 
 Title -hide Elsevier Identity
 URL https://id.elsevier.com
@@ -716,10 +711,7 @@ DJ     online.statref.com
 DJ     statref.com
 Host   host1.statref.com
 
-Title Swank Digital Campus (updated 20181025)
-URL https://digitalcampus.swankmp.net/
-H digitalcampus.swankmp.net
-D swankmp.net
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 # Updated per ralight 2026-01-09
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
