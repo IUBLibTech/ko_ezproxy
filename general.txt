@@ -1,17 +1,9 @@
 ## General Database Definitions moved 12/2014 ##
 # databases after this line - you may change below this line only - JEB
 
-# AAPG Datapages moved to common stanza
+# AAPG Datapages moved to common stanza: aapg-datapages.txt
 
-# Updated per ralight 2022-09-15
-Title Access Science 
-URL https://www.accessscience.com 
-HJ accessscience.com 
-HJ https://accessscience.com 
-HJ https://www.accessscience.com 
-HJ www.accessscience.com 
-HJ https://idp.sams-sigma.com/ 
-DJ accessscience.com
+# Access Science moved to common stanza: mcgraw_hill_medical.txt
 
 Title ACLS Humanities E-Book
 URL http://www.humanitiesebook.org/
@@ -30,11 +22,8 @@ HJ https://quod.lib.umich.edu
 HJ www.hti.umich.edu
 HJ https://www.hti.umich.edu
 
-# Fulcrum moved to common stanza
+# Fulcrum moved to common stanza: fulcrum.txt
 
-Title  AGRICOLA
-URL    http://www.nal.usda.gov/ag98/ag98.html 
-DJ     usda.gov
 
 Title ALA Journals
 URL https://journals.ala.org/
@@ -185,17 +174,7 @@ Title  BioMed Central
 URL    http://www.biomedcentral.com/inst/21800
 DJ     biomedcentral.com
 
-# BioOne Complete moved to common stanza
-
-# changed per Spencer and Kirsten's emails to use tokens
-# this is now near the top of the config file
-#Title Books 24X7
-#URL   http://www.books24X7.com
-#DJ    books24X7.com
-
-Title  Catalog of U.S. Government Publications
-URL    http://catalog.gpo.gov/F
-DJ     gpo.gov
+# BioOne Complete moved to common stanza: bioone.txt
 
 Title  CCH Internet Tax Network (old name)
 URL    http://tax.cchgroup.com/ipnetwork
@@ -204,33 +183,7 @@ DJ     files.stf.com
 HJ	 cch.com
 HJ	 cchgroup.com
 
-Title  Chadwyck-Healey Databases and Early English Books Online
-URL    http://collections.chadwyck.com
-DJ     collections.chadwyck.com 
-DJ     chadwyck.com
-HJ     collections.chadwyck.co.uk
-HJ     acta.chadwyck.com
-HJ     afi.chadwyck.com
-HJ     brecht.chadwyck.com
-HJ     klassiker.chadwyck.com
-HJ     nsarchive.chadwyck.com
-HJ     fii.chadwyck.com
-HJ     goethe.chadwyck.com
-HJ     iibp.chadwyck.com
-HJ     iimpft.chadwyck.com
-HJ     iipaft.chadwyck.com
-HJ     pld.chadwyck.com
-HJ     pao.chadwyck.com
-HJ     pio.chadwyck.com	
-HJ     eebo.chadwyck.com
-HJ      pao.chadwyck.co.uk
-HJ	britishperiodicals.chadwyck.com
-HJ	c19index.chadwyck.com  
-HJ	fiaf.chadwyck.com/ 
-Find    chadwyck.co.uk
-Replace chadwyck.co.uk.^h
-
-# Handbook of Chemistry and Physics moved to common stanza
+# Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
 
 # Updated per ralight 2022-09-08
 Title Choice Reviews (updated 20200408)
@@ -243,11 +196,6 @@ DJ choice360.org
 
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
-Title   Clinical Evidence
-URL    http://www.clinicalevidence.com
-HJ     clinicalevidence.com
-DJ      clinicalevidence.com
-
 T      College & Research Libraries
 U      http://crl.acrl.org/content/by/year
 DJ     crl.acrl.org/content/by/year
@@ -255,32 +203,6 @@ DJ     crl.acrl.org/content/by/year
 T      College & Research Libraries News
 U      http://crln.acrl.org/content
 DJ     crln.acrl.org/content
-
-
-T 	Criminal Justice Abstracts CSA Sociological Abstracts & Social Science Abstracts
-H 	 www.csa.com
-U 	 http://www.csa.com/htbin/dbrng.cgi?username=se76&access=se7676&db=socioabs-set-c&db=ssa-set-c
-DJ 	 alt3.csa3.com
-DJ 	 csa.com
-DJ 	 csa2.com
-DJ 	 csa3.com
-DJ     www-ca1.csa.com
-DJ     www-ca2.csa.com
-DJ     ft2.csa.com
-H      ca2.csa.com
-H 	 md.csa.com
-H 	 md1.csa.com
-H 	 md2.csa.com
-H      md3.csa.com
-H 	 oh1.csa.com
-H 	 ca1.csa.com
-H 	 uk2.csa.com
-H 	 uk1.csa.com
-H 	 alt1.csa.com
-H 	 alt3.csa.com
-Host 	 www.csa1.co.uk
-Host 	 www.csa.com.tw
-Host 	 csa.tsinghua.edu.cn
 
 Title Dictionary of American Regional English
 URL http://www.daredictionary.com/
@@ -294,14 +216,6 @@ HJ http://statisticaldatasets.data-planet.com
 DJ data-planet.com
 DJ conquestsystems.com
 
-Title  Digital Sanborn Maps
-URL    http://sanborn.umi.com
-DJ     sanborn.umi.com
-
-  
-T 	Directory of Open Access Journals
-U 	http://www.doaj.org
-D 	doaj.org
 
 Title Drama Online (updated 20200331)
 URL https://www.dramaonlinelibrary.com/
@@ -311,30 +225,16 @@ HJ https://www.dramaonlinelibrary.com
 HJ https://dramaonlinelibrary.com
 DJ dramaonlinelibrary.com
 
-T      DTTP: Documents to the People 
-U      http://collections.stanford.edu/dttp/bin/browse/field/list?field=yearBrowse
-DJ     collections.stanford.edu/dttp/bin/browse/field/list?field=yearBrowse
-
-
 T      Dustbooks eDirectories
 URL    http://ebooks.dustbooks.com
 HJ     ebooks.dustbooks.com
 DJ     dustbooks.com
 
 
-# DOI system moved to common stanza
+# DOI system moved to common stanza: doi-system.txt
+# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
 
-
-# Newsbank/Readex Databases moved to common_stanza
-
-Option DomainCookieOnly
-Title ebrary
-URL    http://site.ebrary.com/lib/iuk
-DJ ebrary.com
-Find "site.ebrary.com/
-Replace "^psite.ebrary.com^/
-Option Cookie
-
+# Last reviewed by ralight 2026-05-22
 # Updated per ralight 2023-10-06
 Title Ebook Central Proxied
 URL https://ebookcentral.proquest.com/lib/iuk-ebooks
@@ -353,16 +253,7 @@ HJ     www.esajournals.org/loi/fron
 DJ     esajournals.org
 DJ     esapubs.org 
 
-T 	EBSCO EJS Portal 
-U 	http://ejournals.ebsco.com
-DJ 	ebsco.com
-DJ 	208.254.38.90
-
-Title  Encyclopedia of Reagents for Organic Synthesis (e- EROS) 
-URL http://www.mrw.interscience.wiley.com/eros/main.htm
-#DJ wiley.com
-
-# Ent Today moved to common stanza
+# Ent Today moved to common stanza: ent-today.txt
 
 Title  ERIC Clearinghouse
 URL    http://www.eduref.org/Eric
@@ -387,51 +278,18 @@ HJ http://www.europaworld.com
 HJ www.europaworld.com
 DJ europaworld.com
 
-T 	 Extenza
-U 	 http://extenza-eps.com
-OPTION DOMAINCOOKIEONLY
-DJ extenza-eps.com
-OPTION COOKIE
-
-T Feature Films for Education
-U https://ffusa.infobase.com
-HJ https://MEDIA3.CRITERIONPIC.COM
-HJ https://MEDIA2.CRITERIONPIC.COM
-D infobase.com
-DJ CRITERIONPIC.COM
-
-Title Gale Nineteenth Century Collections Online
-URL http://gdc.galegroup.com/gdc/ncco/atp/AboutThisPublicationPortletWin?mCode=4WHC&action=e&windowstate=normal&mode=view&userGroupName=iulib_kokomo
-Domain ncco.galegroup.com
-Host gdc.galegroup.com
-host ncco.galegroup.com 
-
-# Google Scholar moved to common stanza
+# Google Scholar moved to common stanza: google-scholar.txt
 
 Title  GPO Access Databases
 URL    http://www.gpoaccess.gov/  
 DJ     gpoaccess.gov
 
-Title Harper's Weekly
-URL https://app.harpweek.com
-HJ http://app.harpweek.com
-HJ harpweek.com
-DJ harpweek.com
+# Harper's Weekly moved to common stanza: alexanderstreet.txt
 
 Title  Homeland Security Digital Library
 URL    http://www.hsdl.org
 DJ     hsdl.org
 H      https://www.hsdl.org
-
-Title  INCAT
-URL    http://www.ref.oclc.org/dbname=Indiana_Catalog&done=referer&timeout=600&FSIP
-DJ     ref.oclc.org
-DJ     oclc.org
-
-Title  Informe!
-URL    http://infotrac.galegroup.com/itweb/inspire_koko_sp  
-DJ     galegroup.com
-HJ     find.galegroup.com
 
 Title  Informs
 URL    http://journals.informs.org
@@ -441,9 +299,9 @@ H	 mansci.highwire.org/archive
 HJ     highwire.stanford.edu
 HJ     isr.joural.informs.org
 
-# IngentaConnect moved to common stanza
+# IngentaConnect moved to common stanza: ingentaconnect.txt
 
-# INSPIRE moved to common stanza
+# INSPIRE moved to common stanza: inspire.txt
 
 T      Instruction Section Newsletter
 U      http://www.ala.org/acrl/aboutacrl/directoryofleadership/sections/is/iswebsite/projpubs/newsletter
@@ -475,13 +333,7 @@ DJ cchgroup.com
 Neverproxy services.intelliconnect.cch.com
 Neverproxy mediaserver.cch.com
 
-# Vitallaw Premium moved to common stanza
-
-Title IUCAT
-URL	http://classic.iucat.iu.edu
-URL	http://classic.iucat-test.uits.iu.edu:12200
-HJ	classic.iucat.iu.edu
-HJ	classic.iucat-test.uits.iu.edu:12200
+# Vitallaw Premium moved to common stanza: vitallaw.txt
 
 T The Journal of Bone & Joint Surgery
 U http://jbjs.org/
@@ -493,11 +345,13 @@ HJ www2.ejbjs.org
 DJ jbjs.org
 DJ ejbjs.org
 
+# Last reviewed by ralight 2026-05-22
 # Added per ralight 2024-11-12
 # Added for improved IUCAT display
 Title Kaltura
 NeverProxy https://iu.mediaspace.kaltura.com
 NeverProxy iu.mediaspace.kaltura.com
+
 
 # Added per ralight 2022-08-19
 # Kanopy Videostreaming stanza should be listed before Kanopy stanza
@@ -518,9 +372,9 @@ HJ https://www.kanopy.com
 HJ http://www.kanopy.com
 D kanopy.com
 
-# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
+# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
 
-# Liebert moved to common_stanza
+# Liebert moved to common_stanza: liebert.txt
 
 T      Library Instruction Round Table news
 U      http://fleetwood.baylor.edu/lirt/lirtnews
@@ -540,53 +394,22 @@ HJ https://libraries.mangolanguages.com
 HJ libraries.mangolanguages.com 
 DJ mangolanguages.com
 
-# MathSciNet moved to common_stanzas
-
-T 	 MetaPress (journals) 
-URL 	 http://www.metapress.com
-DJ 	 metapress.com
-HJ 	 mesharpe.metapress.com
-HJ 	 taylorandfrancis.metapress.com
-HJ 	 utpjournals.metapress.com
-HJ 	 journalsonline.tandf.co.uk
-HJ	 nif.metapress.com
-
-# Modern Language Association moved to common stanza per ralight 2025-08-13
+# MathSciNet moved to common stanza: mathscinet.txt
+# Modern Language Association moved to common stanza: modernlanguageassociation.txt
 
 Title MLA Literary Research Guide
 URL http://www.mlalrg.org/
 DJ mlalrg.org
 
 
-# New [per atthorpe] 4 February 2015 kw
-T NetLibrary
-URL http://www.netlibrary.com/
-HJ netlibrary.com
-DJ akamai.net
-DJ media.netlibrary.com
-DJ netlibrary.com
-H www.netlibrary.com
-
 Title  New York Review of Books
 URL    http://www.nybooks.com/archives
 DJ	 nybooks.com		
 
-# Oxford Art Online moved to common stanza
-
-
-# Oxford Academic moved to common stanza
-
-# Oxford Music Online moved to common stanza
-
-# Title Oxford Reference moved to common stanza
-
-Title Oxford Scholarship Online - OSO (updated 20190410)
-URL https://www.oxfordscholarship.com
-HJ https://oxfordscholarship.com
-HJ oxfordscholarship.com
-HJ www.oxfordscholarship.com
-DJ oxfordscholarship.com
-DJ oxfordscholarship.com
+# Oxford Art Online moved to common stanza: oxford-art-online.txt
+# Oxford Academic moved to common stanza: oxford-academic.txt
+# Oxford Music Online moved to common stanza: oxford-music-online.txt
+# Oxford Reference moved to common stanza: oxford-reference.txt
 
 Title Polling the Nations 
 URL http://www.orspub.com 
@@ -600,7 +423,7 @@ HJ www.portico.org
 HJ access.portico.org
 DJ portico.org
 
-# Project Muse moved to common stanza
+# Project Muse moved to common stanza: project-muse.txt
 
 Title PsychiatryOnline (American Journal of Psychiatry) (updated 20171226)
 URL https://psychiatryonline.org
@@ -627,15 +450,7 @@ DJ psychiatryonline.com
 DJ psychiatryonline.org
 DJ appi.org
 
-Title  Public Health Reports
-URL    http://www.publichealthreports.org
-Domain publichealthreports.org
-
-# PubMed moved to common stanza
-
-T      Reference & User Services Quarterly
-U      http://rusa.metapress.com/content/L74261
-DJ     rusa.metapress.com/content/L74261
+# PubMed moved to common stanza: pubmed.txt
 
 Title r2library.com
 URL https://www.r2library.com
@@ -664,20 +479,9 @@ HJ www.referenceshelf-online.com
 HJ referenceshelf-online.com
 DJ referenceshelf-online.com
 
-Title  Science.gov
-URL    http://www.science.gov/ 
-DJ     science.gov
-
 # Scientific American moved to common stanza: scientific-american.txt
 
-Title -hide Elsevier Identity
-URL https://id.elsevier.com
-HJ https://id.elsevier.com
-HJ id.elsevier.com
-DJ id.elsevier.com
-Find redirect_uri=https://
-Replace redirect_uri=https://^A
-
+# Last reviewed by ralight 2026-05-22
 Title Serials Solutions
 NeverProxy http://te6uz4hk6z.search.serialssolutions.com
 NeverProxy https://te6uz4hk6z.search.serialssolutions.com
@@ -689,14 +493,6 @@ NeverProxy iu.skillport.com
 NeverProxy https://iu.skillport.com
 NeverProxy https://skillport.iu.edu
 
-T      Social Education
-U      http://ncss.metapress.com/openurl.asp?genre=journal&issn=0037-7724
-DJ     ncss.metapress.com
-
-Title  Sociological Focus
-URL    http://www.paradigmpublishers.com/journals/sf/socfocus%20subscribers%20portal.htm
-DJ     paradigmpublishers.com
-
 Title  SourceOECD
 URL    http://new.sourceoecd.org
 DJ     sourceoecd.org
@@ -704,12 +500,6 @@ DJ     oecd.org
 HJ     new.sourceoecd.org
 HJ     dandini.sourceoecd.org
 DJ     oecdobserver.org
-
-Title  StatRef titles (Ovid - Med lib System-wide subsc)
-URL    http://online.statref.com/default.asp?grpalias=IndianaU
-DJ     online.statref.com 
-DJ     statref.com
-Host   host1.statref.com
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
@@ -766,7 +556,7 @@ NeverProxy fonts.google.com
 NeverProxy googletagmanager.com
 AnonymousURL -*
 
-# TeachingBooks moved to common stanza
+# TeachingBooks moved to common stanza: teachingbooks.txt
 
 
 Title The Times Literary Supplement
@@ -778,11 +568,6 @@ FormVariable gaun=iukuser
 FormVariable gapw=libjournal
 FormVariable gamode=login
 # No Domain because we don't actually want it to proxy, uses password authentication
-
-
-Title  Times Literary Supplement Historical Archive
-URL    http://infotrac.galegroup.com/itweb/iulib_kokomo?db=TLSH
-D      tlemea.com
 
 # Added per ralight 2023-05-18
 Title Topology Proceedings
@@ -829,173 +614,15 @@ URL    http://ajp.press.uiuc.edu
 DJ     press.uiuc.edu
 HJ     jegp.press.uiuc.edu
 
-Title University Press Scholarship Online (updated 20211124)
-URL https://www.universitypressscholarship.com/
-HJ britishacademy.universitypressscholarship.com
-HJ cairo.universitypressscholarship.com
-HJ california.universitypressscholarship.com
-HJ chicago.universitypressscholarship.com
-HJ columbia.universitypressscholarship.com
-HJ cornell.universitypressscholarship.com
-HJ edinburgh.universitypressscholarship.com
-HJ florida.universitypressscholarship.com
-HJ fordham.universitypressscholarship.com
-HJ hawaii.universitypressscholarship.com
-HJ hongkong.universitypressscholarship.com
-HJ illinois.universitypressscholarship.com
-HJ kentucky.universitypressscholarship.com
-HJ liverpool.universitypressscholarship.com
-HJ manchester.universitypressscholarship.com
-HJ minnesota.universitypressscholarship.com
-HJ mississippi.universitypressscholarship.com
-HJ mitpress.universitypressscholarship.com
-HJ northcarolina.universitypressscholarship.com
-HJ nyu.universitypressscholarship.com
-HJ oxford.universitypressscholarship.com
-HJ policypress.universitypressscholarship.com
-HJ princeton.universitypressscholarship.com
-HJ stanford.universitypressscholarship.com
-HJ universitypressscholarship.com
-HJ yale.universitypressscholarship.com
-HJ www.britishacademy.universitypressscholarship.com
-HJ www.cairo.universitypressscholarship.com
-HJ www.california.universitypressscholarship.com
-HJ www.chicago.universitypressscholarship.com
-HJ www.columbia.universitypressscholarship.com
-HJ www.cornell.universitypressscholarship.com
-HJ www.edinburgh.universitypressscholarship.com
-HJ www.florida.universitypressscholarship.com
-HJ www.fordham.universitypressscholarship.com
-HJ www.hawaii.universitypressscholarship.com
-HJ www.hongkong.universitypressscholarship.com
-HJ www.illinois.universitypressscholarship.com
-HJ www.kentucky.universitypressscholarship.com
-HJ www.liverpool.universitypressscholarship.com
-HJ www.manchester.universitypressscholarship.com
-HJ www.minnesota.universitypressscholarship.com
-HJ www.mississippi.universitypressscholarship.com
-HJ www.mitpress.universitypressscholarship.com
-HJ www.northcarolina.universitypressscholarship.com
-HJ www.nyu.universitypressscholarship.com
-HJ www.oxford.universitypressscholarship.com
-HJ www.policypress.universitypressscholarship.com
-HJ www.princeton.universitypressscholarship.com
-HJ www.stanford.universitypressscholarship.com
-HJ www.universitypressscholarship.com
-HJ www.yale.universitypressscholarship.com
-HJ https://britishacademy.universitypressscholarship.com
-HJ https://cairo.universitypressscholarship.com
-HJ https://california.universitypressscholarship.com
-HJ https://chicago.universitypressscholarship.com
-HJ https://columbia.universitypressscholarship.com
-HJ https://cornell.universitypressscholarship.com
-HJ https://edinburgh.universitypressscholarship.com
-HJ https://florida.universitypressscholarship.com
-HJ https://fordham.universitypressscholarship.com
-HJ https://hawaii.universitypressscholarship.com
-HJ https://hongkong.universitypressscholarship.com
-HJ https://illinois.universitypressscholarship.com
-HJ https://kentucky.universitypressscholarship.com
-HJ https://liverpool.universitypressscholarship.com
-HJ https://manchester.universitypressscholarship.com
-HJ https://minnesota.universitypressscholarship.com
-HJ https://mississippi.universitypressscholarship.com
-HJ https://mitpress.universitypressscholarship.com
-HJ https://northcarolina.universitypressscholarship.com
-HJ https://nyu.universitypressscholarship.com
-HJ https://oxford.universitypressscholarship.com
-HJ https://policypress.universitypressscholarship.com
-HJ https://princeton.universitypressscholarship.com
-HJ https://stanford.universitypressscholarship.com
-HJ https://universitypressscholarship.com
-HJ https://yale.universitypressscholarship.com
-HJ https://www.britishacademy.universitypressscholarship.com
-HJ https://www.cairo.universitypressscholarship.com
-HJ https://www.california.universitypressscholarship.com
-HJ https://www.chicago.universitypressscholarship.com
-HJ https://www.columbia.universitypressscholarship.com
-HJ https://www.cornell.universitypressscholarship.com
-HJ https://www.edinburgh.universitypressscholarship.com
-HJ https://www.florida.universitypressscholarship.com
-HJ https://www.fordham.universitypressscholarship.com
-HJ https://www.hawaii.universitypressscholarship.com
-HJ https://www.hongkong.universitypressscholarship.com
-HJ https://www.illinois.universitypressscholarship.com
-HJ https://www.kentucky.universitypressscholarship.com
-HJ https://www.liverpool.universitypressscholarship.com
-HJ https://www.manchester.universitypressscholarship.com
-HJ https://www.minnesota.universitypressscholarship.com
-HJ https://www.mississippi.universitypressscholarship.com
-HJ https://www.mitpress.universitypressscholarship.com
-HJ https://www.northcarolina.universitypressscholarship.com
-HJ https://www.nyu.universitypressscholarship.com
-HJ https://www.oxford.universitypressscholarship.com
-HJ https://www.policypress.universitypressscholarship.com
-HJ https://www.princeton.universitypressscholarship.com
-HJ https://www.stanford.universitypressscholarship.com
-HJ https://www.universitypressscholarship.com
-HJ https://www.yale.universitypressscholarship.com
-HJ https://oxfordscholarship.com
-HJ https://www.oxfordscholarship.com
-HJ oxfordscholarship.com
-HJ www.oxfordscholarship.com
-DJ oxfordscholarship.com
-DJ universitypressscholarship.com
+# University Press Scholarship Online moved to common stanza: oxford-academic.txt
+# Value Line moved to common stanza: value-line.txt
+# OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
 
-T USMLE Easy
-U https://new.usmle-easy.com/institution
-H https://new.usmle-easy.com
-DJ usmle-easy.com
-DJ books.mcgraw-hill.com
-
-# Value Line moved to common stanza
-
-Title	Wiley Encyclopedia of Sociology Online
-URL	http://www.sociologyencyclopedia.com
-Domain	sociologyencyclopedia.com
-
-# OCLC FirstSearch moved to common_stanza
-
+# Last reviewed by ralight 2026-05-22
 Title WorldCat Local (updated 20181128)
 URL https://iuk.worldcat.org
 HJ iuk.worldcat.org
 DJ worldcat.org
-
-Title Artstor
-HTTPHeader -request -process Accept-Encoding
-URL http://library.artstor.org
-DJ artstor.org
-HJ mdxdv.artstor.org 
-HJ library.artstor.org
-HJ https://library.artstor.org
-HJ proxy.library.artstor.org
-NeverProxy viewer.artstor.org
-NeverProxy viewer2.artstor.org
-
-
-Title Frontier Life
-URL http://www.frontierlife.amdigital.co.uk
-
-Title Foreign Office Files for the Middle East
-URL http://www.archivesdirect.amdigital.co.ukFO_MiddleEast
-
-Title Eighteenth Century Drama
-URL http://www.eighteenthcenturydrama.amdigital.co.uk
-
-Title World's Fairs
-URL http://www.worldsfairs.amdigital.co.uk
-
-Title Shakespeare in Performance
-URL http://www.shakespeareinperformance.amdigital.co.uk
-
-Title History of Mass Tourism
-URL http://www.masstourism.amdigital.co.uk
-
-Title Church Missionary Society Periodicals Module II
-URL http://www.churchmissionarysociety.amdigital.co.uk
-
-Title Colonial America Module II
-URL http://www.colonialamerica.amdigital.co.uk
 
 Title Encyclopedia of Life Sciences
 U http://www.els.net
@@ -1005,7 +632,7 @@ Title Open Textbook Library
 URL https://open.umn.edu/opentextbooks
 Host  https://open.umn.edu
 
-# UptoDate moved to common stanza
+# UptoDate moved to common stanza: uptodate.txt
 
 Title Activate NY Times Access
 URL https://ezmyaccount.nytimes.com/grouppass
@@ -1028,7 +655,7 @@ URL https://frame.credocourseware.com
 DJ *.credocourseware.com
 HJ frame.credocourseware.com
 
-#  Wiley Digital Archives moved to common stanza
+#  Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
 
 # Updated per ralight 2025-12-17
 Title Oxford Bibliographies (updated 20251211)
@@ -1045,9 +672,9 @@ NeverProxy oup-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup3-idp.sams-sigma.com
 
-## IEEE Xplore moved to common stanza
+## IEEE Xplore moved to common stanza: ieee-xplore.txt
 
-# ABC-CLIO Databases and Ebooks moved to common_stanza
+# ABC-CLIO Databases and Ebooks moved to common stanza: abc-clio.txt
 
 Title Ancestry Library
 URL https://ancestrylibrary.proquest.com
