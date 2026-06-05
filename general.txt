@@ -3,161 +3,22 @@
 
 # AAPG Datapages moved to common stanza: aapg-datapages.txt
 # Access Science moved to common stanza: mcgraw_hill_medical.txt
-
-Title ACLS Humanities E-Book
-URL http://www.humanitiesebook.org/
-HJ humanitiesebook.org
-HJ https://humanitiesebook.org
-HJ www.humanitiesebook.org
-HJ https://www.humanitiesebook.org
-HJ hdl.handle.net
-HJ https://hdl.handle.net
-HJ hdl.lib.umich.edu
-HJ https://hdl.lib.umich.edu
-HJ name.umdl.umich.edu
-HJ https://name.umdl.umich.edu
-HJ quod.lib.umich.edu
-HJ https://quod.lib.umich.edu
-HJ www.hti.umich.edu
-HJ https://www.hti.umich.edu
-
 # Fulcrum moved to common stanza: fulcrum.txt
 
+# Added per ralight 2026-06-05
+Title American Libraries
+URL http://americanlibrariesmagazine.org/magazine/issues/
+HJ http://americanlibrariesmagazine.org
+DJ americanlibrariesmagazine.org
 
-Title ALA Journals
-URL https://journals.ala.org/
-HJ journals.ala.org
-HJ www.journals.ala.org
-HJ https://journals.ala.org
-HJ https://www.journals.ala.org
-DJ ala.org
-# Domain temporarily moved from ALA Books stanza which is being removed
-DJ     americanlibrariesmagazine.org/archives
-
-
-# Updated per ralight 2025-10-08
-# Stanza for non-subscribed/free resource added to reduce needhost errors
-Title American Academy of Pediatrics (20251001)
-URL https://publications.aap.org
-HJ https://publications.aap.org
-HJ https://publications.aap.org/aapgrandrounds/
-HJ https://publications.aap.org/neoreviews/
-HJ https://publications.aap.org/pediatrics/pages/policy/
-HJ https://publications.aap.org/redbook/
-HJ https://publications.aap.org/aapnews/
-HJ https://publications.aap.org/hospitalpediatrics/
-HJ https://publications.aap.org/pediatricsInreview/
-HJ https://publications.aap.org/pediatrics/
-HJ https://publications.aap.org/aapbooks/
-HJ https://publications.aap.org/journals/
-HJ https://publications.aap.org/codingnews
-HJ https://publications.aap.org/pediatriccare
-HJ https://publications.aap.org/patiented
-HJ https://publications.aap.org/toolkits
-HJ https://www.aap.org
-HJ https://coding.aap.org
-HJ https://aapgrandrounds.org
-HJ https://neoreviews.org
-HJ https://aappolicy.org
-HJ https://aapredbook.org
-HJ https://aapnews.org
-HJ https://hospitalpediatrics.org
-HJ https://pedsinreview.org
-HJ https://pediatrics.org
-HJ https://aapjournals.org
-HJ https://aappublications.org
-HJ https://pediatriccareonline.org
-HJ https://aap.org
-HJ https://aapebooks.org
-HJ https://aappublications.org
-HJ https://pediatrics.aappublications.org
-DJ publications.aap.org
-DJ coding.aap.org
-DJ aapgrandrounds.org
-DJ neoreviews.org
-DJ aappolicy.org
-DJ aapredbook.org
-DJ aapnews.org
-DJ hospitalpediatrics.org
-DJ pedsinreview.org
-DJ pediatrics.org
-DJ aapjournals.org
-DJ aappublications.org
-DJ pediatriccareonline.org
-DJ aapebooks.org
-DJ aap.org
-Neverproxy aap2.silverchair-cdn.com
-
-# American Chemical Society moved to common stanza
-
-Title Annual Reviews
-URL http://www.annualreviews.org/
-HJ annualreviews.org
-HJ anchem.annualreviews.org
-HJ animal.annualreviews.org
-HJ anthro.annualreviews.org
-HJ arcompsci.annualreviews.org
-HJ arjournals.annualreviews.org
-HJ arplant.annualreviews.org
-HJ astro.annualreviews.org
-HJ biochem.annualreviews.org
-HJ bioeng.annualreviews.org
-HJ biophys.annualreviews.org
-HJ cellbio.annualreviews.org
-HJ chembioeng.annualreviews.org
-HJ clinpsy.annualreviews.org
-HJ conmatphys.annualreviews.org
-HJ earth.annualreviews.org
-HJ ecolsys.annualreviews.org
-HJ economics.annualreviews.org
-HJ energy.annualreviews.org
-HJ ento.annualreviews.org
-HJ financial.annualreviews.org
-HJ fluid.annualreviews.org
-HJ food.annualreviews.org
-HJ genet.annualreviews.org
-HJ genom.annualreviews.org
-HJ https://www.annualreviews.org
-HJ immunol.annualreviews.org
-HJ lawsocsci.annualreviews.org
-HJ linguistics.annualreviews.org
-HJ marine.annualreviews.org
-HJ matsci.annualreviews.org
-HJ med.annualreviews.org
-HJ micro.annualreviews.org
-HJ neuro.annualreviews.org
-HJ nucl.annualreviews.org
-HJ nutr.annualreviews.org
-HJ orgpsych.annualreviews.org
-HJ pathmechdis.annualreviews.org
-HJ pharmtox.annualreviews.org
-HJ physchem.annualreviews.org
-HJ physiol.annualreviews.org
-HJ phyto.annualreviews.org
-HJ plant.annualreviews.org
-HJ polisci.annualreviews.org
-HJ psych.annualreviews.org
-HJ publhealth.annualreviews.org
-HJ resource.annualreviews.org
-HJ soc.annualreviews.org
-HJ statistics.annualreviews.org
-HJ virology.annualreviews.org
-HJ vision.annualreviews.org
-HJ www.annualreviews.org
-DJ annualreviews.org
-
+# ALA Journals moved to common stanza: ala-journals.txt
+# American Chemical Society moved to common stanza: american-chemical-society.txt
+# Annual Reviews moved to common stanza: annual-reviews.txt
 # BioOne Complete moved to common stanza: bioone.txt
 # Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
-T      College & Research Libraries
-U      http://crl.acrl.org/content/by/year
-DJ     crl.acrl.org/content/by/year
-
-T      College & Research Libraries News
-U      http://crln.acrl.org/content
-DJ     crln.acrl.org/content
-
+# College & Research Libraries moved to commons stanza: college-research-libraries.txt
 # DOI system moved to common stanza: doi-system.txt
 # Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
 
@@ -170,37 +31,10 @@ HJ https://ebookcentral.proquest.com/lib/iuk-ebooks
 DJ ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
-Title  Ecological Society of America (ESA)
-URL    http://www.esapubs.org/esapubs/journals/ecology_main.htm
-HJ     www.esajournals.org/loi/ecol
-HJ     www.esajournals.org/loi/ebul
-HJ     www.esajournals.org/loi/ecap
-HJ     www.esajournals.org/loi/emon
-HJ     www.esajournals.org/loi/fron
-DJ     esajournals.org
-DJ     esapubs.org 
 
 # Ent Today moved to common stanza: ent-today.txt
-
-# Updated per ralight 2023-05-17
-Title ERIC (OCLC IncludeFile updated 20230512)
-URL https://eric.ed.gov
-HJ eric.ed.gov
-HJ https://eric.ed.gov
-HJ www.eric.ed.gov
-HJ https://files.eric.ed.gov
-HJ files.eric.ed.gov
-DJ eric.ed.gov
-
-# Updated per ralight 2026-01-09
-# HTTPheader localized
-HTTPHeader -request -process Access-Token
-Title Europa World Plus
-URL https://www.europaworld.com/
-HJ http://www.europaworld.com
-HJ www.europaworld.com
-DJ europaworld.com
-
+# ERIC moved to common stanza: eric-gov.txt
+# Europa World Plus moved to common stanza: europa-world-plus.txt
 # Google Scholar moved to common stanza: google-scholar.txt
 # Harper's Weekly moved to common stanza: alexanderstreet.txt
 
@@ -213,9 +47,6 @@ H      https://www.hsdl.org
 # IngentaConnect moved to common stanza: ingentaconnect.txt
 # INSPIRE moved to common stanza: inspire.txt
 
-T      Instruction Section Newsletter
-U      http://www.ala.org/acrl/aboutacrl/directoryofleadership/sections/is/iswebsite/projpubs/newsletter
-DJ     www.ala.org/acrl/aboutacrl/directoryofleadership/sections/is/iswebsite/projpubs/newsletter
 
 # Last reviewed by ralight 2026-05-26
 # Added per ralight 2023-07-20
@@ -246,15 +77,6 @@ Neverproxy mediaserver.cch.com
 
 # Vitallaw Premium moved to common stanza: vitallaw.txt
 
-T The Journal of Bone & Joint Surgery
-U http://jbjs.org/
-HJ www.jbjs.org
-HJ surgicaltechniques.jbjs.org
-HJ caseconnector.jbjs.org
-HJ www.ejbjs.org
-HJ www2.ejbjs.org
-DJ jbjs.org
-DJ ejbjs.org
 
 # Last reviewed by ralight 2026-05-22
 # Added per ralight 2024-11-12
@@ -287,10 +109,6 @@ D kanopy.com
 
 # Liebert moved to common_stanza: liebert.txt
 
-T      Library Instruction Round Table news
-U      http://fleetwood.baylor.edu/lirt/lirtnews
-DJ     fleetwood.baylor.edu/lirt/lirtnews
-
 # Added per ralight 2023-07-14
 Title Loex Quarterly
 URL https://commons.emich.edu/loexquarterly/
@@ -298,19 +116,8 @@ HJ http://commons.emich.edu
 HJ commons.emich.edu
 DJ emich.edu
 
-Title Mango Languages 
-URL https://connect.mangolanguages.com/iuk/start 
-HJ connect.mangolanguages.com 
-HJ https://libraries.mangolanguages.com 
-HJ libraries.mangolanguages.com 
-DJ mangolanguages.com
-
 # MathSciNet moved to common stanza: mathscinet.txt
 # Modern Language Association moved to common stanza: modernlanguageassociation.txt
-
-Title MLA Literary Research Guide
-URL http://www.mlalrg.org/
-DJ mlalrg.org
 
 
 Title  New York Review of Books
@@ -322,10 +129,6 @@ DJ	 nybooks.com
 # Oxford Music Online moved to common stanza: oxford-music-online.txt
 # Oxford Reference moved to common stanza: oxford-reference.txt
 
-Title Polling the Nations 
-URL http://www.orspub.com 
-Domain www.orspub.com
-Host http://www.orspub.com
 
 Title Portico
 URL http://www.portico.org
@@ -368,10 +171,6 @@ URL https://www.r2library.com
 HOST www.r2library.com
 DJ r2library.com
 
-T Rheumatologist
-U http://www.the-rheumatologist.org/view/index.html
-H www.the-rheumatologist.org
-
 Title Salem Press
 URL https://online.salempress.com
 HJ online.salempress.com
@@ -403,14 +202,6 @@ Title Skillport8i
 NeverProxy iu.skillport.com
 NeverProxy https://iu.skillport.com
 NeverProxy https://skillport.iu.edu
-
-Title  SourceOECD
-URL    http://new.sourceoecd.org
-DJ     sourceoecd.org
-DJ     oecd.org
-HJ     new.sourceoecd.org
-HJ     dandini.sourceoecd.org
-DJ     oecdobserver.org
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
@@ -469,17 +260,7 @@ AnonymousURL -*
 
 # TeachingBooks moved to common stanza: teachingbooks.txt
 
-
-Title The Times Literary Supplement
-URL -Form=post -RewriteHost tls http://tls.timesonline.co.uk/section/0,,25332,00.html?gavalidate
-FormVariable grid=46
-FormVariable dgrid=46
-FormVariable imageID=246611
-FormVariable gaun=iukuser
-FormVariable gapw=libjournal
-FormVariable gamode=login
-# No Domain because we don't actually want it to proxy, uses password authentication
-
+# Last reviewed by ralight 2026-06-05
 # Added per ralight 2023-05-18
 Title Topology Proceedings
 URL http://topology.nipissingu.ca/tp/
@@ -520,11 +301,6 @@ HJ www.press.uchicago.edu
 DJ uchicago.edu
 Option Cookie
 
-Title  University of Illinois Journals
-URL    http://ajp.press.uiuc.edu
-DJ     press.uiuc.edu
-HJ     jegp.press.uiuc.edu
-
 # University Press Scholarship Online moved to common stanza: oxford-academic.txt
 # Value Line moved to common stanza: value-line.txt
 # OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
@@ -535,13 +311,6 @@ URL https://iuk.worldcat.org
 HJ iuk.worldcat.org
 DJ worldcat.org
 
-Title Encyclopedia of Life Sciences
-U http://www.els.net
-DJ els.net
-
-Title Open Textbook Library
-URL https://open.umn.edu/opentextbooks
-Host  https://open.umn.edu
 
 # UptoDate moved to common stanza: uptodate.txt
 
@@ -550,38 +319,9 @@ URL https://ezmyaccount.nytimes.com/grouppass
 D ezmyaccount.nytimes.com
 H ezmyaccount.nytimes.com
 
-T Foundation Directory Online 
-U https://fconline.foundationcenter.org/ipl.php 
-HJ fconline.foundationcenter.org 
-HJ fconline.fdncenter.org 
-DJ foundationcenter.org 
-NeverProxy 990s.foundationcenter.org 
-NeverProxy https://990.foundationcenter.org
-
-Title Mometrix eLibrary Test Preparation
-U https://portal.mometrixelibrary.com/?__acct=397
-
-Title Credo Education
-URL https://frame.credocourseware.com 
-DJ *.credocourseware.com
-HJ frame.credocourseware.com
+# Foundation Directory Online moved to common stanza: candid.txt
 
 #  Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
-
-# Updated per ralight 2025-12-17
-Title Oxford Bibliographies (updated 20251211)
-HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
-URL https://www.oxfordbibliographies.com
-HJ https://www.oxfordbibliographies.com
-HJ https://oxfordbibliographies.com
-HJ www.oxfordbibliographies.com
-HJ oxfordbibliographies.com
-HJ oxfordbibliographiesonline.com
-HJ www.oxfordbibliographiesonline.com
-DJ oxfordbibliographies.com
-NeverProxy oup-idp.sams-sigma.com
-NeverProxy oup2-idp.sams-sigma.com
-NeverProxy oup3-idp.sams-sigma.com
 
 ## IEEE Xplore moved to common stanza: ieee-xplore.txt
 
@@ -611,18 +351,6 @@ DJ serialssolutions.com
 HJ www.ulrichsweb.com
 HJ ulrichsweb.com
 DJ ulrichsweb.com
-
-T Richard K. Miller & Associates
-U http://www.rkma.com
-HJ www.rkma.com
-HJ rkma.com
-DJ rkma.com
-
-Title Routledge Handbooks Online (updated 20160714)
-URL https://www.routledgehandbooks.com/
-HJ routledgehandbooks.com
-HJ www.routledgehandbooks.com
-DJ routledgehandbooks.com
 
 # Added per ralight 2023-11-16
 Option NoX-Forwarded-For 
