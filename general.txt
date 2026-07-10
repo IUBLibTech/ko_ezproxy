@@ -17,10 +17,8 @@ DJ americanlibrariesmagazine.org
 # BioOne Complete moved to common stanza: bioone.txt
 # Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
-
 # College & Research Libraries moved to commons stanza: college-research-libraries.txt
 # DOI system moved to common stanza: doi-system.txt
-# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
 
 # Last reviewed by ralight 2026-05-22
 # Updated per ralight 2023-10-06
@@ -37,16 +35,9 @@ NeverProxy acs.ebookcentral.proquest.com
 # Europa World Plus moved to common stanza: europa-world-plus.txt
 # Google Scholar moved to common stanza: google-scholar.txt
 # Harper's Weekly moved to common stanza: alexanderstreet.txt
-
-Title  Homeland Security Digital Library
-URL    http://www.hsdl.org
-DJ     hsdl.org
-H      https://www.hsdl.org
-
-
+# Homeland Security Digital Library (HSDL) moved to common stanza: homeland-security-digital-library.txt
 # IngentaConnect moved to common stanza: ingentaconnect.txt
 # INSPIRE moved to common stanza: inspire.txt
-
 
 # Last reviewed by ralight 2026-05-26
 # Added per ralight 2023-07-20
@@ -56,28 +47,6 @@ URL https://www.ijee.ie
 HJ http://www.ijee.ie
 DJ ijee.ie
 
-# Updated per ralight 2024-04-17
-HTTPMethod DELETE
-Title CCH AnswerConnect and CCH Account Research Manager 3.0 (updated 20240405)
-HTTPHeader -request -process X-GWT-*
-HTTPHeader -request -process X-ApiKey
-HTTPHeader -request -process X-CPID
-HTTPHeader -request -process X-Api-Key
-HTTPHeader -request -process X-CSRF-Token
-URL https://www.answerconnect.cch.com
-HJ www.answerconnect.cch.com
-HJ https://answerconnect.cch.com
-HJ answerconnect.cch.com
-DJ wolterskluwer.com
-DJ cch.com
-DJ salestaxradar.com
-DJ cchgroup.com
-Neverproxy services.intelliconnect.cch.com
-Neverproxy mediaserver.cch.com
-
-# Vitallaw Premium moved to common stanza: vitallaw.txt
-
-
 # Last reviewed by ralight 2026-05-22
 # Added per ralight 2024-11-12
 # Added for improved IUCAT display
@@ -85,7 +54,7 @@ Title Kaltura
 NeverProxy https://iu.mediaspace.kaltura.com
 NeverProxy iu.mediaspace.kaltura.com
 
-
+# Last reviewed by ralight 2026-07-10
 # Added per ralight 2022-08-19
 # Kanopy Videostreaming stanza should be listed before Kanopy stanza
 T Kanopy Videostreaming
@@ -96,6 +65,7 @@ DJ kanopystreaming.com
 Find ! ksPattern.test(window.location.hostname)
 Replace 1 == 0
 
+# Last reviewed by ralight 2026-07-10
 # Added per ralight 2022-08-19
 Title Kanopy
 URL http://iuk.kanopy.com
@@ -106,45 +76,22 @@ HJ http://www.kanopy.com
 D kanopy.com
 
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
-
 # Liebert moved to common_stanza: liebert.txt
-
-# Added per ralight 2023-07-14
-Title Loex Quarterly
-URL https://commons.emich.edu/loexquarterly/
-HJ http://commons.emich.edu
-HJ commons.emich.edu
-DJ emich.edu
-
+# Loex Quarterly moved to common stanza: loex-quarterly.txt
 # MathSciNet moved to common stanza: mathscinet.txt
 # Modern Language Association moved to common stanza: modernlanguageassociation.txt
-
-
-Title  New York Review of Books
-URL    http://www.nybooks.com/archives
-DJ	 nybooks.com		
-
+# New York Review of Books moved to common stanza: new-york-review-books.txt
+# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
 # Oxford Art Online moved to common stanza: oxford-art-online.txt
 # Oxford Academic moved to common stanza: oxford-academic.txt
 # Oxford Music Online moved to common stanza: oxford-music-online.txt
 # Oxford Reference moved to common stanza: oxford-reference.txt
-
-
-Title Portico
-URL http://www.portico.org
-HJ portico.org
-HJ www.portico.org
-HJ access.portico.org
-DJ portico.org
-
+# Portico moved to common stanza: portico.txt
 # Project Muse moved to common stanza: project-muse.txt
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 # PubMed moved to common stanza: pubmed.txt
 
-Title r2library.com
-URL https://www.r2library.com
-HOST www.r2library.com
-DJ r2library.com
+# R2 Digital Library moved to common stanza: r2-digital-library.txt
 
 Title Salem Press
 URL https://online.salempress.com
@@ -332,3 +279,5 @@ Option NoX-Forwarded-For
 Title Teaching Channel 
 URL https://platform.teachingchannel.com/TeachingChannel 
 Option X-Forwarded-For
+
+# Vitallaw Premium moved to common stanza: vitallaw.txt
