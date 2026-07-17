@@ -90,27 +90,8 @@ D kanopy.com
 # Project Muse moved to common stanza: project-muse.txt
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 # PubMed moved to common stanza: pubmed.txt
-
 # R2 Digital Library moved to common stanza: r2-digital-library.txt
-
-Title Salem Press
-URL https://online.salempress.com
-HJ online.salempress.com
-HJ www.salempress.com
-HJ www.history.salempress.com
-HJ history.salempress.com
-HJ www.literature.salempress.com
-HJ literature.salempress.com
-HJ www.science.salempress.com
-HJ science.salempress.com
-HJ www.health.salempress.com
-HJ health.salempress.com
-HJ salempress.com
-DJ salempress.com 
-HJ www.referenceshelf-online.com
-HJ referenceshelf-online.com
-DJ referenceshelf-online.com
-
+# Salem Press moved to common stanza: salem-press.txt
 # Scientific American moved to common stanza: scientific-american.txt
 
 # Last reviewed by ralight 2026-05-22
@@ -118,68 +99,11 @@ Title Serials Solutions
 NeverProxy http://te6uz4hk6z.search.serialssolutions.com
 NeverProxy https://te6uz4hk6z.search.serialssolutions.com
 
-# Added & modified per ralight 2022-08-26
-# Stanza added to improve IUCAT experience
-Title Skillport8i
-NeverProxy iu.skillport.com
-NeverProxy https://iu.skillport.com
-NeverProxy https://skillport.iu.edu
-
+# Skillport8i moved to common stanza: skillport8i.txt
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
-# Updated per ralight 2026-01-09
-ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis (updated 20190318)
-HTTPHeader -request -process Access-Token
-URL https://www.tandfonline.com
-HJ http://www.tandfonline.com
-HJ journalsonline.tandf.co.uk
-HJ afs.tandfonline.com
-HJ amstat.tandfonline.com
-HJ tandfonline.com
-HJ www.journalsonline.tandf.co.uk
-DJ tandfonline.com
-HJ tandfprod.literatumonline.com
-HJ https://tandfonline.com
-DJ literatumonline.com
-
-# Added per ralight 2022-03-21
-AnonymousURL +https://api.taylorandfrancis.com/*
-AnonymousURL +https://api.taylorfrancis.com/*
-AnonymousURL +https://events.taylorandfrancis.com/*
-AnonymousURL +https://secure.taylorandfrancis.com/*
-AnonymousURL +https://secure.taylorfrancis.com/*
-Title Taylor Francis eBooks (updated 20210702)
-HTTPHeader -request -process authtoken
-HTTPHeader -request -process Origin
-URL https://www.taylorfrancis.com
-HJ www.taylorfrancis.com
-HJ https://taylorfrancis.com
-HJ taylorfrancis.com
-HJ https://api.taylorandfrancis.com
-HJ api.taylorandfrancis.com
-HJ https://api.taylorfrancis.com
-HJ api.taylorfrancis.com
-HJ https://events.taylorandfrancis.com
-HJ events.taylorandfrancis.com
-HJ https://accounts.taylorfrancis.com
-HJ accounts.taylorfrancis.com
-HJ https://secure.taylorfrancis.com
-HJ secure.taylorfrancis.com
-HJ https://secure.taylorandfrancis.com
-HJ secure.taylorandfrancis.com
-DJ taylorandfrancis.com
-DJ taylorfrancis.com
-NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1..com
-Find http-equiv="Content-Security-Policy"
-Replace http-equiv="X-Content-Security-Policy"
-Find "url":"https:\/\/taylorfrancis.com\/
-Replace "url":"https:\/\/^staylorfrancis.com^\/
-NeverProxy api.google.com
-NeverProxy fonts.google.com
-NeverProxy googletagmanager.com
-AnonymousURL -*
-
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
+# Taylor Francis eBooks moved to common stanza: taylor-francis-ebooks.txt
 # TeachingBooks moved to common stanza: teachingbooks.txt
 
 # Last reviewed by ralight 2026-06-05
@@ -191,38 +115,7 @@ HJ https://topology.nipissingu.ca
 HJ topology.nipissingu.ca
 DJ nipissingu.ca
 
-Title University of California Press
-URL http://www.ucpress.edu/journals.php
-HJ www.ucpress.edu
-HJ phr.ucpress.edu
-HJ www.ucpressjournals.com
-DJ ucpress.edu
-DJ ucpressjournals.com
-Find ucpress.edu\/
-Replace ^Pucpress.edu^\/
-
-# Updated per ralight 2022-08-15
-Option DomainCookieOnly
-T University of Chicago Press Journals (OCLC IncludeFile updated 20220810)
-U http://www.journals.uchicago.edu
-HJ artfl-project.uchicago.edu
-HJ cjtcs.cs.uchicago.edu
-HJ el.press.uchicago.edu
-HJ https://artfl-project.uchicago.edu
-HJ https://el.press.uchicago.edu
-HJ https://journals.uchicago.edu
-HJ https://www.journals.uchicago.edu
-HJ humanities.uchicago.edu
-HJ journals.uchicago.edu
-HJ letterpress.uchicago.edu
-HJ lib.uchicago.edu
-HJ press.uchicago.edu
-HJ www.journals.uchicago.edu
-HJ www.lib.uchicago.edu
-HJ www.press.uchicago.edu
-DJ uchicago.edu
-Option Cookie
-
+# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 # University Press Scholarship Online moved to common stanza: oxford-academic.txt
 # Value Line moved to common stanza: value-line.txt
 # OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
@@ -233,51 +126,15 @@ URL https://iuk.worldcat.org
 HJ iuk.worldcat.org
 DJ worldcat.org
 
-
 # UptoDate moved to common stanza: uptodate.txt
-
-Title Activate NY Times Access
-URL https://ezmyaccount.nytimes.com/grouppass
-D ezmyaccount.nytimes.com
-H ezmyaccount.nytimes.com
-
+# Access NYT moved to common stanza: access-nyt.txt
 # Foundation Directory Online moved to common stanza: candid.txt
-
 #  Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
-
-## IEEE Xplore moved to common stanza: ieee-xplore.txt
-
+# IEEE Xplore moved to common stanza: ieee-xplore.txt
 # ABC-CLIO Databases and Ebooks moved to common stanza: abc-clio.txt
-
-Title Ancestry Library
-URL https://ancestrylibrary.proquest.com
-HJ https://ancestrylibrary.proquest.com
-DJ ancestrylibrary.proquest.com
-NeverProxy www.ancestrylibrary.com
-
+# Ancestry Library moved to commonstanza: ancestry-library.txt
 # ACM Digital Library moved to common stanza: acmdigital.txt
+# Ulrichsweb moved to common stanza: ulrichsweb.txt
 
-Title Ulrichsweb
-URL https://ulrichsweb.serialssolutions.com/
-HJ ulrichsweb.serialssolutions.com
-HJ https://ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com
-DJ serialssolutions.com
-HJ ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com
-HJ https://clientcenter.serialssolutions.com
-HJ clientcenter.serialssolutions.com
-HJ www.serialssolutions.com
-HJ serialssolutions.com
-DJ serialssolutions.com
-HJ www.ulrichsweb.com
-HJ ulrichsweb.com
-DJ ulrichsweb.com
-
-# Added per ralight 2023-11-16
-Option NoX-Forwarded-For 
-Title Teaching Channel 
-URL https://platform.teachingchannel.com/TeachingChannel 
-Option X-Forwarded-For
-
+# Teaching Channel moved to common stanza: teaching-channel.txt
 # Vitallaw Premium moved to common stanza: vitallaw.txt
