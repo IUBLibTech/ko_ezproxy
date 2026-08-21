@@ -107,6 +107,13 @@ HJ https://www.kanopy.com
 HJ http://www.kanopy.com
 D kanopy.com
 
+# Added per ralight 2026-08-21
+T Kortext
+U https://read.kortext.com/api/identity/v1/ezproxy/callback
+HJ app.kortext.com
+HJ read.kortext.com
+HJ https://read.kortext.com
+
 # Knovel moved to common stanza: knovel.txt
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
 # Liebert moved to common_stanza: liebert.txt
