@@ -143,6 +143,14 @@ HJ https://read.kortext.com
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 # PubMed moved to common stanza: pubmed.txt
 # R2 Digital Library moved to common stanza: r2-digital-library.txt
+
+# Updated per ralight 2026-08-27
+T Richard K. Miller & Associates
+U https://www.rkma.com/iuk/kokomo
+HJ http://www.rkma.com
+HJ www.rkma.com
+DJ rkma.com
+
 # Sage moved to common stanza: sage.txt
 # Salem Press moved to common stanza: salem-press.txt
 # Science Magazine moved to common stanza: science-magazine.txt
