@@ -33,6 +33,20 @@ DJ americanlibrariesmagazine.org
 # Clarivate moved to common stanza: clarivate.txt
 # College & Research Libraries moved to common stanza: college-research-libraries.txt
 # Cookie Law moved to common stanza: cookielaw.txt
+
+# Added per cwlamb 2026-09-11
+Title Credo Learning Tools 
+URL https://frame.credocourseware.com
+HJ https://frame.credocourseware.com
+HJ https://infolit.credocourseware.com
+HJ https://learning.credocourseware.com
+HJ https://learning-frame.credocourseware.com
+DJ frame.credocourseware.com
+DJ infolit.credocourseware.com
+DJ learning.credocourseware.com
+DJ learning-frame.credocourseware.com
+DJ credocourseware.com
+
 # De Gruyter moved to common stanza: degruyter.txt
 # DOI system moved to common stanza: doi-system.txt
 # Duke University Press moved to common stanza: duke.txt
