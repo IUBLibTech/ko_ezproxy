@@ -121,12 +121,12 @@ HJ https://www.kanopy.com
 HJ http://www.kanopy.com
 D kanopy.com
 
-# Added per ralight 2026-08-21
-T Kortext
-U https://read.kortext.com/api/identity/v1/ezproxy/callback
-HJ app.kortext.com
+# Updated per ralight 2026-10-09
+Title Kortext IP (updated 20261006)
+URL https://read.kortext.com/api/identity/v1/ezproxy/callback
 HJ read.kortext.com
 HJ https://read.kortext.com
+NeverProxy app.kortext.com
 
 # Knovel moved to common stanza: knovel.txt
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
